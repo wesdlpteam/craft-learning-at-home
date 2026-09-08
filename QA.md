@@ -13,3 +13,15 @@ Screenshots in local output/playwright (excluded from Git):
 - mobile-student-prompt.png: 390x844, full-page student result; readable instructions, prompt and actions, no horizontal overflow.
 
 Every screenshot was opened and visually inspected. The temporary local servers and browser session were stopped after verification. No Claude request was submitted; generated artifact quality is outside this builder verification. No API key is required.
+
+## Age-based examples update
+
+Added nine clickable suggestions for each of seven age bands (63 suggestions), grouped into maths, reading/writing and science, with three separate optional basic starting points. These are suggestions rather than curriculum mappings.
+
+Playwright exercised every suggestion. Verified 12–13 fractions includes different denominators and 3/4 + 2/3; matching untouched examples update with age; user edits survive age changes; parent/student voice changes; keyboard activation; optional simpler examples; the final Claude prompt includes the selected task and does not automatically lower its level. Both JavaScript syntax checks and git diff --check passed. Browser console: 0 errors, 0 warnings.
+
+Visually inspected full-page screenshots in output/playwright:
+- age-desktop-options.png: 1280x900, initial age 12–13 choices, readable subject groups and buttons.
+- age-desktop-fractions.png: 1280x900, parent selects Fractions, complete example is readable.
+- age-mobile-options.png: 390x844, student choices, buttons wrap without horizontal overflow.
+- age-mobile-fractions.png: 390x844, student selects Fractions with simpler options expanded, text box grows to show the full example and controls remain readable.

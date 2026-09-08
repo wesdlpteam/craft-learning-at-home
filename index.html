@@ -7,7 +7,7 @@
 <link rel="icon" href="data:,">
 <style>
 :root{--purple:#4f2759;--ink:#2b281f;--muted:#66615a;--line:#e6e2dd;--tint:#f4eef6}*{box-sizing:border-box}body{margin:0;background:#faf9f7;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--purple)}nav{max-width:1020px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between;gap:16px;align-items:center}nav strong{letter-spacing:.14em;font-size:14px}nav a{font-size:14px}header{background:var(--tint);padding:42px 24px 64px;text-align:center}.eyebrow{color:var(--purple);font-size:12px;font-weight:750;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(30px,5vw,44px);line-height:1.15;letter-spacing:-.035em;margin:12px 0 16px}header p{max-width:600px;margin:auto;color:var(--muted)}main{max-width:740px;margin:-28px auto 48px;padding:0 20px;position:relative}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:32px;box-shadow:0 8px 28px #2b281f06}.progress{display:flex;gap:8px;margin-bottom:26px}.progress span{height:5px;flex:1;background:var(--line);border-radius:6px}.progress .active{background:var(--purple)}h2{font-size:25px;line-height:1.25;margin:8px 0 12px;letter-spacing:-.02em}p{margin:0 0 20px}.muted,.hint{color:var(--muted)}label{display:block;font-weight:650;margin-top:22px}label small{font-weight:400;color:var(--muted)}.hint{font-size:14px;margin:5px 0 9px}input,select,textarea{width:100%;font:inherit;color:var(--ink);background:#fff;border:1px solid #aaa49e;border-radius:9px;padding:12px}textarea{resize:vertical;min-height:110px}button,.button{font:inherit;font-weight:650;border-radius:9px;min-height:46px;padding:10px 18px;cursor:pointer;border:1px solid var(--line);background:white;color:var(--purple);text-decoration:none;display:inline-block;text-align:center}.primary{background:var(--purple);border-color:var(--purple);color:white}button:hover,.button:hover{filter:brightness(.94)}:focus-visible{outline:3px solid #a2814a;outline-offset:3px}.actions{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-top:28px}.examples{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.examples button{font-size:13px;padding:6px 11px;min-height:36px;background:var(--tint);border-color:var(--tint)}.note{border-left:3px solid #c59f40;padding:10px 16px;background:#faf8f1;font-size:14px;margin-top:24px}.foot{text-align:center;font-size:13px;color:var(--muted);margin:22px 0}.error{color:#a12828;margin-top:10px;font-size:14px}[hidden]{display:none!important}#prompt{min-height:280px;font-size:14px;background:#faf9f7}ol{padding-left:22px}li{margin-bottom:10px}#status{font-size:14px;color:var(--purple);margin-top:12px}@media(max-width:480px){nav{padding:16px 20px}header{padding:28px 20px 54px}.card{padding:23px 20px}main{padding:0 14px}h2{font-size:23px}.actions>*{flex:1}.actions{gap:8px}}
-</style>
+.example-picker{margin-top:22px}.example-picker h3{font-size:14px;margin:14px 0 4px}.example-picker>h3{font-size:16px}.examples button{min-height:44px;font-size:14px}.example-picker summary{cursor:pointer;color:var(--purple);padding:10px 0;font-size:14px}.example-picker summary:focus-visible{outline:3px solid #a2814a;outline-offset:3px}</style>
 </head>
 <body>
 <nav aria-label="CRAFT versions"><strong>CRAFT <span style="font-weight:400;letter-spacing:0">/ at home</span></strong><a href="https://craft-app-builder.vercel.app/">For teachers ↗</a></nav>
@@ -21,7 +21,7 @@
 <div class="eyebrow">Step 1 of 3 · The tricky bit</div><h2 tabindex="-1">What is your child finding difficult?</h2><p class="muted">Your own words are enough. You don’t need to know what the topic is called.</p>
 <label for="age">How old is your child?</label><select id="age" required><option value="">Choose their age</option><option>4–5</option><option>6–7</option><option>8–9</option><option>10–11</option><option>12–13</option><option>14–15</option><option>16–18</option></select>
 <label for="difficulty">What are they stuck on?</label><p class="hint" id="difficulty-hint">Describe what happens, or paste a short homework question. Leave out names and personal details.</p><textarea id="difficulty" required maxlength="2000" aria-describedby="difficulty-hint" placeholder="For example: They can do 3 × 4, but get stuck when it’s written as a word problem."></textarea>
-<div class="examples" aria-label="Try an example"><button type="button" data-example="They find it hard to understand why one half is bigger than one quarter.">Fractions</button><button type="button" data-example="They can read the words, but find it hard to explain what happened in the story.">Understanding a story</button><button type="button" data-example="They mix up evaporation and condensation and cannot explain how the water cycle works.">The water cycle</button></div>
+<div class="example-picker"><h3>Need an idea? Pick a starting point.</h3><p class="hint" id="example-hint" aria-live="polite"></p><div id="example-groups"></div><details id="simpler-examples" hidden><summary>Looking for a simpler starting point?</summary><div class="examples" id="basic-examples" role="group" aria-label="Simpler examples"></div></details></div>
 <p class="error" id="error" role="alert" hidden></p><div class="actions"><button type="button" data-back="-1">← Change who it’s for</button><button class="primary" type="submit">Next: make it personal →</button></div>
 </section>
 <section data-step="1" hidden>
@@ -44,6 +44,7 @@
 </div>
 <p class="foot">Your answers stay on this page until you copy them into Claude.<br>This builder creates a prompt; Claude creates the activity.</p>
 </main>
+<script src="examples.js"></script>
 <script>
 const $ = id => document.getElementById(id);
 let step = -1;
@@ -74,6 +75,8 @@ document.querySelectorAll('[data-audience]').forEach(button => button.addEventLi
   $('intro').textContent = `Create a prompt for Claude to make a small, interactive learning activity ${audience === 'student' ? 'for you' : 'for your child'}. No curriculum knowledge needed.`;
   $('difficulty').placeholder = audience === 'student' ? 'For example: I can do 3 × 4, but get stuck when it’s written as a word problem.' : 'For example: They can do 3 × 4, but get stuck when it’s written as a word problem.';
   $('extra').placeholder = audience === 'student' ? 'For example: Keep the reading short. I lose confidence when I get an answer wrong.' : 'For example: Keep the reading short. They lose confidence when they get an answer wrong.';
+  syncSelectedExample();
+  renderExamples();
   showStep(0);
 }));
 function showStep(next) {
@@ -82,6 +85,7 @@ function showStep(next) {
   document.querySelector('.progress').hidden = step === -1;
   document.querySelectorAll('[data-step]').forEach(section => section.hidden = Number(section.dataset.step) !== step);
   document.querySelectorAll('.progress span').forEach((bar, i) => bar.classList.toggle('active', i <= step));
+  if (step === 0) resizeDifficulty();
   document.querySelector(`[data-step="${step}"] h2`).focus();
 }
 const approaches = {
@@ -99,7 +103,7 @@ What they are finding difficult (my description or homework example):
 ${$('difficulty').value.trim()}
 ${$('interests').value.trim() ? '\nTheir interests: ' + $('interests').value.trim() + '\n' : ''}${$('extra').value.trim() ? '\nWhat helps them learn: ' + $('extra').value.trim() + '\n' : ''}
 THE ACTIVITY
-- Focus on one manageable concept behind the difficulty. Use the age as a starting point, but begin with easier foundations and adapt to what the child understands.
+- Focus on one manageable concept behind the difficulty. Match the starting level to the described task and use age only as a guide. Start with one short check of what the child understands; revisit easier foundations only if needed or requested. Do not automatically replace an older learner’s task with early-primary content.
 - If my description is too unclear to choose a concept, ask me one simple clarifying question before building. Do not ask me for curriculum codes or teaching terminology.
 - ${approaches[$('support').value]}
 - Aim for 5–10 minutes. Explain the idea in everyday words, show a worked example, then offer a few short interactive tasks, one at a time.
@@ -134,8 +138,11 @@ $('builder').addEventListener('submit', event => {
   } else { $('prompt').value = buildPrompt(); $('status').textContent = ''; showStep(2); $('prompt').scrollTop = 0; }
 });
 document.querySelectorAll('[data-back]').forEach(button => button.addEventListener('click', () => showStep(Number(button.dataset.back))));
-document.querySelectorAll('[data-example]').forEach(button => button.addEventListener('click', () => { $('difficulty').value = audience === 'student' ? button.dataset.example.replace('They find', 'I find').replace('They can', 'I can').replace('They mix', 'I mix') : button.dataset.example; $('difficulty').focus(); }));
-$('restart').addEventListener('click', () => { if (!confirm('Clear your answers and start a new prompt?')) return; $('builder').reset(); $('prompt').value = ''; $('status').textContent = ''; $('error').hidden = true; ['age','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid')); showStep(0); });
+$('age').addEventListener('change', () => { syncSelectedExample(); renderExamples(); });
+$('difficulty').addEventListener('input', () => { selectedExample = null; lastExampleText = ''; resizeDifficulty(); });
+window.addEventListener('resize', resizeDifficulty);
+renderExamples();
+$('restart').addEventListener('click', () => { if (!confirm('Clear your answers and start a new prompt?')) return; $('builder').reset(); selectedExample = null; lastExampleText = ''; $('simpler-examples').open = false; renderExamples(); $('prompt').value = ''; $('status').textContent = ''; $('error').hidden = true; ['age','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid')); showStep(0); });
 $('copy').addEventListener('click', async () => {
   try { await navigator.clipboard.writeText($('prompt').value); $('status').textContent = 'Copied. Open Claude and paste your prompt into a new chat.'; }
   catch { $('prompt').focus(); $('prompt').select(); $('status').textContent = 'Your prompt is selected. Use your device’s Copy command, then paste it into Claude.'; }
@@ -143,4 +150,3 @@ $('copy').addEventListener('click', async () => {
 </script>
 </body>
 </html>
-
