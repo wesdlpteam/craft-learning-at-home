@@ -36,6 +36,7 @@
 <section data-step="2" hidden>
 <div class="eyebrow">Step 3 of 3 · Ready to try</div><h2 tabindex="-1">Your next step is in Claude.</h2><p class="muted">An <strong>artifact</strong> is something Claude creates that you can use, such as an interactive activity. This prompt tells Claude what to make.</p>
 <ol><li><strong>Copy your prompt</strong> using the button below.</li><li><strong>Open Claude</strong>, sign in if needed, and paste it into a new chat.</li><li><strong>Send it, then try the activity together.</strong> Check the explanations before your child uses it.</li></ol>
+<p class="hint">For a public link, use a regular Claude chat with artifact publishing available. Claude Code artifacts cannot be shared publicly; school or work accounts may limit sharing to their organisation.</p>
 <label for="prompt">Your ready-to-copy prompt</label><textarea id="prompt" readonly></textarea>
 <div class="actions"><button type="button" class="primary" id="copy">Copy prompt</button><a class="button" href="https://claude.ai/new" target="_blank" rel="noopener noreferrer">Open Claude ↗</a></div><p id="status" role="status" aria-live="polite"></p>
 <div class="note"><strong>Too hard or too easy?</strong> In the same Claude chat, try: “Make this easier and show one example first.” Or: “They understand now. Add a slightly harder example.”</div>
@@ -95,7 +96,11 @@ const approaches = {
   unsure: 'Choose a simple approach suited to the difficulty: start with a visual example, then guided practice.'
 };
 function buildPrompt() {
-  const prompt = `Create an interactive Claude artifact to help my child understand something they are finding difficult. I am a parent and do not know curriculum terminology.
+  const prompt = `I want to make an artifact: a web page published with the Artifact tool. Ask me a few questions about what it should show, then build it and publish it.
+
+My answers are below: use them first and ask only about important details that are still missing. If the brief is sufficient, build the artifact without repeating the questions.
+
+Create an interactive Claude artifact to help my child understand something they are finding difficult. I am a parent and do not know curriculum terminology.
 
 ABOUT MY CHILD
 Age range: ${$('age').value} years.
@@ -114,7 +119,8 @@ THE ACTIVITY
 - Do not invent curriculum references, claim official curriculum alignment or diagnose learning difficulties.
 
 BUILD AND PRESENTATION
-- Build a working, self-contained interactive artifact, not just a lesson plan or instructions for me to code.
+- Build the working interactive web page using Claude's Artifact tool, not only a downloadable HTML file, a code block or a lesson plan.
+- Use the publishing or sharing options available in this Claude session. If you can publish it, return the actual link. If I must use Publish or Share myself, tell me the steps. If this session or account cannot publish publicly, explain that limitation and direct me to a regular Claude chat with artifact publishing available; do not claim it is published or invent a link.
 - Make it work on a phone and computer, with large labelled controls, keyboard access, readable text, good contrast and short instructions. Do not rely on colour alone.
 - Keep it calm: no timers, rankings, penalties, distracting animation or required sound.
 - Do not require child accounts, personal information, external services or paid resources. Keep any progress within the current activity.

@@ -25,3 +25,17 @@ Visually inspected full-page screenshots in output/playwright:
 - age-desktop-fractions.png: 1280x900, parent selects Fractions, complete example is readable.
 - age-mobile-options.png: 390x844, student choices, buttons wrap without horizontal overflow.
 - age-mobile-fractions.png: 390x844, student selects Fractions with simpler options expanded, text box grows to show the full example and controls remain readable.
+
+## Artifact publishing prompt update
+
+Both the teacher and home builders now explicitly request the Artifact tool with the supplied opening prompt. Existing CRAFT answers remain included; Claude is asked only for missing details. Teacher HTML download is optional and secondary. Both explain unavailable publishing or sharing instead of promising a public link.
+
+Browser checks: teacher full wizard and copy; home parent and student prompts and copy; 1280x900 and 390x844. Passed prompt assertions, JavaScript syntax and whitespace checks. All four screenshots were opened and visually inspected: readable text and controls, no horizontal overflow. Teacher local preview logs CORS failures from its existing analytics endpoint; home console has zero errors. This does not verify an actual Claude artifact publication or account permissions.
+
+Evidence in output/playwright:
+- artifact-teacher-desktop.png: 1280x900, teacher final prompt and publishing guidance.
+- artifact-teacher-mobile.png: 390x844, teacher copied state and wrapped guidance.
+- artifact-home-desktop.png: 1280x900, parent final prompt and publishing guidance.
+- artifact-home-mobile.png: 390x844, student copied state and publishing guidance.
+
+Reference: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them and https://support.claude.com/en/articles/9547008-publish-and-share-artifacts . Claude Code artifacts cannot be shared publicly; regular chat publishing/sharing depends on the plan.
