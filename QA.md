@@ -39,3 +39,9 @@ Evidence in output/playwright:
 - artifact-home-mobile.png: 390x844, student copied state and publishing guidance.
 
 Reference: https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them and https://support.claude.com/en/articles/9547008-publish-and-share-artifacts . Claude Code artifacts cannot be shared publicly; regular chat publishing/sharing depends on the plan.
+
+## Review before publishing correction
+
+Teacher, parent and student output now requests creation with the Artifact tool for review only. Explicitly forbids automatic publishing, sharing or creating a public link and leaves publishing to the user. Checked full teacher wizard, both home audiences and copy actions. All prompt assertions passed. Home console: zero errors; teacher retains the known local analytics CORS errors. No horizontal overflow.
+
+Visually inspected final prompt/copy states: review-first-teacher-desktop.png (1280x900), review-first-teacher-mobile.png (390x844), review-first-home-desktop.png (1280x900 parent), review-first-home-mobile.png (390x844 student), all in output/playwright. Wording and controls are readable. Teacher screenshots captured with animations disabled to avoid recording mid-fade. No Claude artifact was published during testing.
