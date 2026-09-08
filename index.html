@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRAFT • Learning at home</title>
+<link rel="icon" href="data:,">
+<style>
+:root{--purple:#4f2759;--ink:#2b281f;--muted:#66615a;--line:#e6e2dd;--tint:#f4eef6}*{box-sizing:border-box}body{margin:0;background:#faf9f7;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--purple)}nav{max-width:1020px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between;gap:16px;align-items:center}nav strong{letter-spacing:.14em;font-size:14px}nav a{font-size:14px}header{background:var(--tint);padding:42px 24px 64px;text-align:center}.eyebrow{color:var(--purple);font-size:12px;font-weight:750;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(30px,5vw,44px);line-height:1.15;letter-spacing:-.035em;margin:12px 0 16px}header p{max-width:600px;margin:auto;color:var(--muted)}main{max-width:740px;margin:-28px auto 48px;padding:0 20px;position:relative}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:32px;box-shadow:0 8px 28px #2b281f06}.progress{display:flex;gap:8px;margin-bottom:26px}.progress span{height:5px;flex:1;background:var(--line);border-radius:6px}.progress .active{background:var(--purple)}h2{font-size:25px;line-height:1.25;margin:8px 0 12px;letter-spacing:-.02em}p{margin:0 0 20px}.muted,.hint{color:var(--muted)}label{display:block;font-weight:650;margin-top:22px}label small{font-weight:400;color:var(--muted)}.hint{font-size:14px;margin:5px 0 9px}input,select,textarea{width:100%;font:inherit;color:var(--ink);background:#fff;border:1px solid #aaa49e;border-radius:9px;padding:12px}textarea{resize:vertical;min-height:110px}button,.button{font:inherit;font-weight:650;border-radius:9px;min-height:46px;padding:10px 18px;cursor:pointer;border:1px solid var(--line);background:white;color:var(--purple);text-decoration:none;display:inline-block;text-align:center}.primary{background:var(--purple);border-color:var(--purple);color:white}button:hover,.button:hover{filter:brightness(.94)}:focus-visible{outline:3px solid #a2814a;outline-offset:3px}.actions{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-top:28px}.examples{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.examples button{font-size:13px;padding:6px 11px;min-height:36px;background:var(--tint);border-color:var(--tint)}.note{border-left:3px solid #c59f40;padding:10px 16px;background:#faf8f1;font-size:14px;margin-top:24px}.foot{text-align:center;font-size:13px;color:var(--muted);margin:22px 0}.error{color:#a12828;margin-top:10px;font-size:14px}[hidden]{display:none!important}#prompt{min-height:280px;font-size:14px;background:#faf9f7}ol{padding-left:22px}li{margin-bottom:10px}#status{font-size:14px;color:var(--purple);margin-top:12px}@media(max-width:480px){nav{padding:16px 20px}header{padding:28px 20px 54px}.card{padding:23px 20px}main{padding:0 14px}h2{font-size:23px}.actions>*{flex:1}.actions{gap:8px}}
+</style>
+</head>
+<body>
+<nav aria-label="CRAFT versions"><strong>CRAFT <span style="font-weight:400;letter-spacing:0">/ at home</span></strong><a href="https://craft-app-builder.vercel.app/">For teachers ↗</a></nav>
+<header><div class="eyebrow">A little help with learning</div><h1>Turn “I don’t get it”<br>into “let’s try together”.</h1><p id="intro">Create a prompt for Claude to make a small, interactive learning activity. No curriculum knowledge needed.</p></header>
+<main>
+<div class="card">
+<section data-step="-1"><div class="eyebrow">Learning starts here</div><h2 tabindex="-1">Who is this for?</h2><p class="muted">Choose how you’re using this builder. We’ll guide you from there.</p><div class="actions"><button type="button" class="primary" data-audience="parent">I’m a parent or carer</button><button type="button" class="primary" data-audience="student">I’m a student</button></div></section>
+<div class="progress" aria-hidden="true" hidden><span class="active"></span><span></span><span></span></div>
+<form id="builder" novalidate>
+<section data-step="0" hidden>
+<div class="eyebrow">Step 1 of 3 · The tricky bit</div><h2 tabindex="-1">What is your child finding difficult?</h2><p class="muted">Your own words are enough. You don’t need to know what the topic is called.</p>
+<label for="age">How old is your child?</label><select id="age" required><option value="">Choose their age</option><option>4–5</option><option>6–7</option><option>8–9</option><option>10–11</option><option>12–13</option><option>14–15</option><option>16–18</option></select>
+<label for="difficulty">What are they stuck on?</label><p class="hint" id="difficulty-hint">Describe what happens, or paste a short homework question. Leave out names and personal details.</p><textarea id="difficulty" required maxlength="2000" aria-describedby="difficulty-hint" placeholder="For example: They can do 3 × 4, but get stuck when it’s written as a word problem."></textarea>
+<div class="examples" aria-label="Try an example"><button type="button" data-example="They find it hard to understand why one half is bigger than one quarter.">Fractions</button><button type="button" data-example="They can read the words, but find it hard to explain what happened in the story.">Understanding a story</button><button type="button" data-example="They mix up evaporation and condensation and cannot explain how the water cycle works.">The water cycle</button></div>
+<p class="error" id="error" role="alert" hidden></p><div class="actions"><button type="button" data-back="-1">← Change who it’s for</button><button class="primary" type="submit">Next: make it personal →</button></div>
+</section>
+<section data-step="1" hidden>
+<div class="eyebrow">Step 2 of 3 · A good way in</div><h2 tabindex="-1">Make it feel like their kind of learning.</h2><p class="muted">These are optional. You can leave them as they are and we’ll ask Claude to keep things simple.</p>
+<label for="interests">What do they enjoy? <small>(optional)</small></label><input id="interests" maxlength="200" placeholder="For example: football, animals, space or drawing">
+<label for="support">What would help them most?</label><select id="support"><option value="visual">Show it with pictures and examples</option><option value="practice">Let them try, with hints along the way</option><option value="steps">Break it into small steps</option><option value="unsure">I’m not sure — choose for us</option></select>
+<label for="extra">Anything else that helps? <small>(optional)</small></label><textarea id="extra" maxlength="1000" placeholder="For example: Keep the reading short. They lose confidence when they get an answer wrong."></textarea>
+<div class="note">We’ll ask for a gentle activity of about 5–10 minutes, with clear explanations, helpful hints and no timer.</div>
+<div class="actions"><button type="button" data-back="0">← Back</button><button type="submit" class="primary">Create my prompt →</button></div>
+</section>
+</form>
+<section data-step="2" hidden>
+<div class="eyebrow">Step 3 of 3 · Ready to try</div><h2 tabindex="-1">Your next step is in Claude.</h2><p class="muted">An <strong>artifact</strong> is something Claude creates that you can use, such as an interactive activity. This prompt tells Claude what to make.</p>
+<ol><li><strong>Copy your prompt</strong> using the button below.</li><li><strong>Open Claude</strong>, sign in if needed, and paste it into a new chat.</li><li><strong>Send it, then try the activity together.</strong> Check the explanations before your child uses it.</li></ol>
+<label for="prompt">Your ready-to-copy prompt</label><textarea id="prompt" readonly></textarea>
+<div class="actions"><button type="button" class="primary" id="copy">Copy prompt</button><a class="button" href="https://claude.ai/new" target="_blank" rel="noopener noreferrer">Open Claude ↗</a></div><p id="status" role="status" aria-live="polite"></p>
+<div class="note"><strong>Too hard or too easy?</strong> In the same Claude chat, try: “Make this easier and show one example first.” Or: “They understand now. Add a slightly harder example.”</div>
+<div class="actions"><button type="button" data-back="0">Edit my answers</button><button type="button" id="restart">Start again</button></div>
+</section>
+</div>
+<p class="foot">Your answers stay on this page until you copy them into Claude.<br>This builder creates a prompt; Claude creates the activity.</p>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let step = -1;
+let audience = 'parent';
+const parentCopy = new Map();
+const wording = [
+  ['[data-step="0"] h2', 'What are you finding difficult?'],
+  ['label[for="age"]', 'How old are you?'],
+  ['#age option[value=""]', 'Choose your age'],
+  ['label[for="difficulty"]', 'What are you stuck on?'],
+  ['[data-step="1"] h2', 'Make it feel like your kind of learning.'],
+  ['label[for="interests"]', 'What do you enjoy? (optional)'],
+  ['label[for="support"]', 'What would help you most?'],
+  ['#support option[value="practice"]', 'Let me try, with hints along the way'],
+  ['#support option[value="unsure"]', 'I’m not sure — choose for me'],
+  ['[data-step="2"] ol li:nth-child(2)', 'Ask a parent or trusted adult to help you use Claude if needed. Paste your prompt into a new chat.'],
+  ['[data-step="2"] ol li:nth-child(3)', 'Send it, then try the activity. If an explanation seems confusing or wrong, check it with a teacher or trusted adult.'],
+  ['[data-step="2"] .note', 'Too hard or too easy? In the same Claude chat, try: “Make this easier and show one example first.” Or: “I understand now. Add a slightly harder example.”']
+];
+wording.forEach(([selector]) => parentCopy.set(selector, document.querySelector(selector).innerHTML));
+document.querySelectorAll('[data-audience]').forEach(button => button.addEventListener('click', () => {
+  audience = button.dataset.audience;
+  wording.forEach(([selector, studentText]) => {
+    const element = document.querySelector(selector);
+    if (audience === 'student') element.textContent = studentText;
+    else element.innerHTML = parentCopy.get(selector);
+  });
+  $('intro').textContent = `Create a prompt for Claude to make a small, interactive learning activity ${audience === 'student' ? 'for you' : 'for your child'}. No curriculum knowledge needed.`;
+  $('difficulty').placeholder = audience === 'student' ? 'For example: I can do 3 × 4, but get stuck when it’s written as a word problem.' : 'For example: They can do 3 × 4, but get stuck when it’s written as a word problem.';
+  $('extra').placeholder = audience === 'student' ? 'For example: Keep the reading short. I lose confidence when I get an answer wrong.' : 'For example: Keep the reading short. They lose confidence when they get an answer wrong.';
+  showStep(0);
+}));
+function showStep(next) {
+  step = next;
+  if (step === -1) $('intro').textContent = 'Create a prompt for Claude to make a small, interactive learning activity. No curriculum knowledge needed.';
+  document.querySelector('.progress').hidden = step === -1;
+  document.querySelectorAll('[data-step]').forEach(section => section.hidden = Number(section.dataset.step) !== step);
+  document.querySelectorAll('.progress span').forEach((bar, i) => bar.classList.toggle('active', i <= step));
+  document.querySelector(`[data-step="${step}"] h2`).focus();
+}
+const approaches = {
+  visual: 'Use clear pictures or interactive visual models, with everyday examples.',
+  practice: 'Use a short guided practice activity, with hints available before each answer.',
+  steps: 'Break the idea into small steps, demonstrating each step before asking the child to try.',
+  unsure: 'Choose a simple approach suited to the difficulty: start with a visual example, then guided practice.'
+};
+function buildPrompt() {
+  const prompt = `Create an interactive Claude artifact to help my child understand something they are finding difficult. I am a parent and do not know curriculum terminology.
+
+ABOUT MY CHILD
+Age range: ${$('age').value} years.
+What they are finding difficult (my description or homework example):
+${$('difficulty').value.trim()}
+${$('interests').value.trim() ? '\nTheir interests: ' + $('interests').value.trim() + '\n' : ''}${$('extra').value.trim() ? '\nWhat helps them learn: ' + $('extra').value.trim() + '\n' : ''}
+THE ACTIVITY
+- Focus on one manageable concept behind the difficulty. Use the age as a starting point, but begin with easier foundations and adapt to what the child understands.
+- If my description is too unclear to choose a concept, ask me one simple clarifying question before building. Do not ask me for curriculum codes or teaching terminology.
+- ${approaches[$('support').value]}
+- Aim for 5–10 minutes. Explain the idea in everyday words, show a worked example, then offer a few short interactive tasks, one at a time.
+- Use their interests where they help explain the idea, without distracting from it. Keep the design age-appropriate, including for older children who need help with foundations.
+- Give useful feedback that explains why an answer works. On a mistake, offer a gentle hint and another try; do not simply reveal the answer or mark it wrong.
+- Include an easier option, a small next challenge and a way to restart. Finish with a fresh example to check understanding and a simple question we can discuss together.
+- Use Australian spelling and familiar everyday examples. If I supplied a homework question, teach the method using a similar example before returning to it.
+- Do not invent curriculum references, claim official curriculum alignment or diagnose learning difficulties.
+
+BUILD AND PRESENTATION
+- Build a working, self-contained interactive artifact, not just a lesson plan or instructions for me to code.
+- Make it work on a phone and computer, with large labelled controls, keyboard access, readable text, good contrast and short instructions. Do not rely on colour alone.
+- Keep it calm: no timers, rankings, penalties, distracting animation or required sound.
+- Do not require child accounts, personal information, external services or paid resources. Keep any progress within the current activity.
+- Add a short parent note explaining the idea in plain language, what to notice while we try it, and one useful question to ask afterwards. Be clear about any assumptions you made.`;
+  if (audience === 'parent') return prompt;
+  return prompt.replace('to help my child understand something they are finding difficult. I am a parent and do not know curriculum terminology.', 'to help me understand something I am finding difficult. I am a student; speak directly to me in plain language.')
+    .replace('ABOUT MY CHILD', 'ABOUT ME').replace('What they are finding difficult', 'What I am finding difficult')
+    .replace('Their interests:', 'My interests:').replace('What helps them learn:', 'What helps me learn:')
+    .replaceAll('the child understands', 'I understand').replaceAll('the child to try', 'me to try')
+    .replaceAll('their interests', 'my interests').replace('we can discuss together', 'I can explain in my own words')
+    .replace('Add a short parent note explaining the idea in plain language, what to notice while we try it, and one useful question to ask afterwards.', 'Add a short recap for me in plain language and one useful question I can ask a teacher or trusted adult if I am still stuck.');
+}
+$('builder').addEventListener('submit', event => {
+  event.preventDefault();
+  if (step === 0) {
+    const missing = !$('age').value ? $('age') : !$('difficulty').value.trim() ? $('difficulty') : null;
+    $('error').hidden = !missing;
+    ['age','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid'));
+    if (missing) { $('error').textContent = missing.id === 'age' ? 'Choose an age range so the activity is at a helpful level.' : 'Tell us a little about the tricky bit.'; missing.setAttribute('aria-invalid','true'); missing.focus(); return; }
+    showStep(1);
+  } else { $('prompt').value = buildPrompt(); $('status').textContent = ''; showStep(2); $('prompt').scrollTop = 0; }
+});
+document.querySelectorAll('[data-back]').forEach(button => button.addEventListener('click', () => showStep(Number(button.dataset.back))));
+document.querySelectorAll('[data-example]').forEach(button => button.addEventListener('click', () => { $('difficulty').value = audience === 'student' ? button.dataset.example.replace('They find', 'I find').replace('They can', 'I can').replace('They mix', 'I mix') : button.dataset.example; $('difficulty').focus(); }));
+$('restart').addEventListener('click', () => { if (!confirm('Clear your answers and start a new prompt?')) return; $('builder').reset(); $('prompt').value = ''; $('status').textContent = ''; $('error').hidden = true; ['age','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid')); showStep(0); });
+$('copy').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText($('prompt').value); $('status').textContent = 'Copied. Open Claude and paste your prompt into a new chat.'; }
+  catch { $('prompt').focus(); $('prompt').select(); $('status').textContent = 'Your prompt is selected. Use your device’s Copy command, then paste it into Claude.'; }
+});
+</script>
+</body>
+</html>
+
