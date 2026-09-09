@@ -1,0 +1,148 @@
+[AC9TDEFK]
+Explore how people design everyday things
+[AC9TDEFP]
+Plan, explain and safely make a simple design
+[AC9TDE2K]
+Explain how designs meet people's needs
+Explore materials and movement in products
+Explore how plants and animals provide food, clothing and shelter
+Choose and prepare food for healthy eating
+[AC9TDE2P]
+Share a design idea through words, drawings or models
+Make a design safely using suitable materials and tools
+Decide how well a design works and consider sustainability
+Put making steps in order and work together
+[AC9TDE4K]
+Explore design jobs and sustainable choices
+Explain how forces and materials affect a product
+Describe how food and fibres are produced
+Explain healthy food choices and preparation
+[AC9TDE4P]
+Explore a design need and test possible materials
+Explain design ideas with labelled drawings and models
+Choose suitable materials and work safely
+Judge a design against agreed requirements
+Plan the steps to make a design
+[AC9TDE6K]
+Explain how designers balance competing needs
+Explain how electrical energy becomes movement, light or sound
+Explain food and fibre production in managed environments
+Match food properties with preparation choices
+Choose materials and equipment for their useful properties
+[AC9TDE6P]
+Investigate a design need and possible ways to meet it
+Develop, improve and communicate a design idea
+Make a design safely with suitable tools and materials
+Agree on criteria to evaluate a design
+Plan a design project and its resources
+[AC9TDE8K]
+Explore ethical and sustainable decisions in design jobs
+Explain how new technologies influence future designs
+Use force, motion and energy to understand engineered systems
+Evaluate sustainable food and fibre production
+Choose food preparation methods for particular properties
+Combine materials and components for a design
+[AC9TDE8P]
+Analyse a design need and select possible resources
+Test and improve ideas using drawings, models and explanations
+Justify safe choices of materials and making techniques
+Develop shared criteria for evaluating a design
+Manage a project's time, cost and production
+[AC9TDE10K]
+Evaluate ethical, security and sustainability choices in design
+Evaluate the influence of emerging technologies and enterprise
+Judge material and energy choices in engineered systems
+Evaluate ethical and sustainable food and fibre businesses
+Design sustainable food solutions using food properties
+Evaluate combinations of materials and technologies
+[AC9TDE10P]
+Develop a design brief and analyse suitable resources
+Test and communicate innovative design ideas
+Test and justify technologies and safe making processes
+Develop independent criteria to evaluate a design
+Plan and manage project costs, time, risks and production
+[AC9TDIFK]
+Recognise devices and the programs they use
+Show information with objects, pictures and symbols
+[AC9TDIFP]
+Recognise information that is personal
+[AC9TDI2K]
+Explore the parts and purposes of digital devices
+Show information using pictures, numbers and words
+[AC9TDI2P]
+Find a simple problem that a digital tool could solve
+Follow instructions with steps, choices and repeats
+Explain how a digital system meets someone's needs
+Use basic digital tools to make and find content
+Work together respectfully using digital tools
+Understand how to sign in with a username and password
+Recognise that apps and websites can store personal information
+[AC9TDI4K]
+Describe devices and the equipment connected to them
+Explore how devices send different kinds of data
+Show the same information in different ways
+[AC9TDI4P]
+Describe a user's problem and what a solution must do
+Follow instructions with comparisons, choices and repeats
+Compare and explain possible digital designs
+Build a simple visual program with input and decisions
+Check a digital solution against a user's needs
+Use digital tools to create and communicate clearly
+Plan and collaborate using shared digital tools
+Understand what makes a password memorable and hard to guess
+Recognise risks when personal information is stored or shared
+[AC9TDI6K]
+Explain what the main parts inside a computer do
+Explain how networks connect devices and carry data
+Explain why computers represent information with numbers
+Represent information using binary zeros and ones
+[AC9TDI6P]
+Define a digital problem through a user's needs
+Design instructions with several choices and repeats
+Design clear screens and controls for a digital tool
+Improve and evaluate possible digital designs
+Build visual programs using variables and input
+Evaluate a digital solution's usefulness and community effects
+Choose suitable digital tools to make and communicate content
+Collaborate responsibly on a shared digital project
+Explain why accounts need different passphrases
+Understand digital footprints and privacy when collecting data
+[AC9TDI8K]
+Choose computer hardware to suit a task
+Explain data transfer and security in networks
+Explain how computers store text, images and sound as numbers
+Represent whole numbers using binary
+[AC9TDI8P]
+Collect, store and check data in spreadsheets or databases
+Use charts and data analysis to find trends
+Describe and search structured data
+Break a real-world problem into smaller user needs
+Design flowcharts with decisions and loops inside other loops
+Follow an algorithm to predict results and find errors
+Design how people will use a digital system
+Compare, improve and evaluate different designs
+Write and debug programs with functions and control structures
+Evaluate a solution against needs and future effects
+Use more advanced digital tool features effectively
+Manage and collaborate on a digital project responsibly
+Recognise phishing and explain extra sign-in protection
+Evaluate whether a system really needs the data it collects
+[AC9TDI10K]
+Explain how systems control and secure data access
+Separate web content, structure and styling
+Explore ways to reduce data file sizes
+[AC9TDI10P]
+Develop reliable ways to collect, store and check data
+Use interactive data displays to examine trends and unusual results
+Model relationships and search structured data
+Interview users and break a problem into clear requirements
+Design algorithms with logical tests
+Test programs against expected results
+Build and test a prototype of the user experience
+Critically compare and improve alternative designs
+Write and debug programs organised into reusable parts
+Evaluate digital solutions and opportunities for enterprise
+Use advanced tools to create interactive content
+Manage project risks, responsibilities and progress
+Model cyber threats and explore a system weakness safely
+Evaluate data collection using Australian privacy principles

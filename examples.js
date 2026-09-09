@@ -300,7 +300,7 @@ function addExampleButton(container, item, basic = false) {
   button.type = 'button';
   button.textContent = item[0];
   button.addEventListener('click', () => {
-    clearMathSelection();
+    clearCurriculumSelection();
     selectedExample = {label: item[0], basic};
     lastExampleText = exampleText(item[1]);
     $('difficulty').value = lastExampleText;

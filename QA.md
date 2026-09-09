@@ -59,3 +59,26 @@ Visually inspected final prompt/copy states: review-first-teacher-desktop.png (1
 - Visual evidence (local, ignored): output/playwright/maths-desktop-initial.png, maths-desktop-selected.png, maths-mobile-initial.png, maths-mobile-selected.png.
 - QA inventory and browser check scripts are saved in output/curriculum/ (local, ignored).
 - Curriculum labels are simplified adaptations, not ACARA endorsement; full teaching elaborations, achievement standards and Year 10A are outside scope.
+
+## All Foundation–Year 10 areas — 9 September 2026
+
+Inventory before testing: `output/curriculum/all-QA-inventory.md` (local, ignored). Tested through http://127.0.0.1:8766/ using Playwright CLI.
+
+- PASS: `node scripts/check-curriculum.cjs`: 2,678 exact source fingerprints, 34 subjects/frameworks, 18 language/framework entries, 54 courses and 256 course-level combinations. All labels, topic identities, course metadata and the existing 240 Maths labels/descriptions pass.
+- PASS: a fresh official workbook download extracted to identical descriptor content and metadata for all 2,678 rows. Workbook binary hashes differ, so this is a record-content comparison rather than a byte-identical download claim.
+- PASS: real browser clicks of all 2,678 skills across every course-level combination. Each generated prompt contains that exact code, official description and selected level. Browser selection log contains 2,678 entries and 2,678 unique codes.
+- PASS: earlier topic level retains actual school year; custom edits remove the reference; custom text survives context changes; untouched generated choices clear on subject/pathway changes. Unknown sequence does not infer a course. Own words, unsure text, parent/student switching, Auslan instructions and framework approved-example guidance pass.
+- PASS: complete parent and student prompt flows, copy feedback, edit and restart clearing. Prompt still requests Claude's Artifact tool and explicitly forbids automatic publishing/sharing.
+- PASS: simulated HTTP 503 shows a retry, retry loads topics and preserves custom text. A delayed previous subject response cannot replace the current subject. The intentional 503 produced the expected browser resource error.
+- PASS: a subsequent clean full flow recorded zero console/page errors and only same-origin GET requests for static app/curriculum files. The test's written-answer marker was absent from requests; no POSTs or request bodies occurred.
+- PASS: keyboard Enter selects a skill. Desktop 1280x900 and mobile 390x844 have no horizontal overflow.
+- PASS: `git diff --check`.
+
+Final screenshots in local `output/playwright/` were each opened with `view_image` and visually inspected:
+
+- `all-desktop-initial.png`: 1280x900, audience entry; readable heading, buttons and privacy note.
+- `all-desktop-chinese.png`: 1280x900, parent Year 8 Chinese course and selected skill; course controls, topic grid, selection and complete difficulty text fit clearly.
+- `all-mobile-initial.png`: 390x844, audience entry; clean wrapping and comfortably sized buttons.
+- `all-mobile-framework.png`: 390x844, student Year 6 First Nations framework with revival pathway; long names, framework explanation and selected skill wrap without clipping or overlap.
+
+Scope limit: these checks verify the prompt builder and source linkage, not the educational quality of a subsequently generated Claude artifact. Senior IB DP/VCE expansion has a separate proposed plan and is not part of this F–10 release.
