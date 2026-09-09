@@ -82,3 +82,27 @@ Final screenshots in local `output/playwright/` were each opened with `view_imag
 - `all-mobile-framework.png`: 390x844, student Year 6 First Nations framework with revival pathway; long names, framework explanation and selected skill wrap without clipping or overlap.
 
 Scope limit: these checks verify the prompt builder and source linkage, not the educational quality of a subsequently generated Claude artifact. Senior IB DP/VCE expansion has a separate proposed plan and is not part of this F–10 release.
+
+
+## Years 11–12 IB Diploma and VCE — 9 September 2026
+
+QA inventory was written before browser testing: `output/senior/QA-INVENTORY.md`. Tested the normal HTTP preview with Playwright CLI.
+
+- PASS: `node scripts/senior/check.cjs` — 316 unique choices, every one of 174 current IB source entries and 126 VCAA index entries represented, allowed levels/units, exclusions, first/last assessment transitions, original labels and source fingerprint.
+- PASS: `node scripts/check-curriculum.cjs` — all 2,678 existing F–10 fingerprints, 34 subjects, 18 language/framework entries, 54 courses and 256 course/level combinations.
+- PASS: browser exercised all 316 senior choices, 1,268 course/year/level combinations and clicked all 2,110 unique topic buttons; generated wording matched each clicked topic.
+- PASS: IB 2026/2027 Computer science transition, SL/HL filtering, uncertain level/year, Hebrew B SL-only, regional History HL-only, 2028 History version, CAS and school-specific fallback.
+- PASS: French variants, Maths search alias, no-results recovery, full selected names for long courses, VCE General Mathematics Unit 3/4 separation, Algorithmics restrictions and VET without invented units.
+- PASS: parent/student voices and switching, all four help choices, keyboard activation/focus, editing removes mapping, own words, unsure, course/programme/year/unit changes, custom text preservation and restart clearing.
+- PASS: failed static-data load and retry; delayed senior response after switching to Year 6 did not replace the F–10 picker. The deliberately aborted request produced the expected network error in that resilience session; the clean final visual session had 0 errors and 0 warnings.
+- PASS: complete senior and F–10 prompt flows. Senior output contains the selected course/unit/level/year/source without a stale ACARA description; requests the Claude Artifact tool for review and explicitly prohibits automatic publishing/sharing. Mobile IB Computer science SL output uses the 2027 version and student voice.
+- PASS: no network requests occurred while entering written answers and generating a prompt. Only static same-origin curriculum assets load; the builder has no API key, backend, persistent student profile or automatic Claude submission.
+- PASS: desktop 1280x900 and mobile 390x844, initial topics and a meaningful selected-topic/help state. All final full-page screenshots were opened at original resolution and visually inspected: readable text, complete placeholders, clear focus/selection, balanced spacing, consistent card edges, no clipping or horizontal overflow. Browser scrollbars are included in viewport measurements; screenshot content widths exclude them.
+
+Final visual evidence (local, ignored under `output/playwright/`):
+- `senior-desktop-initial.png`: parent, Year 12, VCE General Mathematics Unit 3, topic choices before selection.
+- `senior-desktop-selected.png`: parent, savings/loans topic and worked-example help selected; full generated sentence visible.
+- `senior-mobile-initial.png`: student, Year 11, IB Computer science SL, 2027, topic choices before selection.
+- `senior-mobile-selected.png`: student, programming topic and worked-example help selected; complete wording and next-step controls visible.
+
+Browser scripts are retained in ignored `output/senior/`. The checks validate this prompt builder and its stated outline coverage; they do not certify the content or publishing permissions of an artifact subsequently created in Claude.

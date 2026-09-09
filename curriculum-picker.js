@@ -20,6 +20,7 @@ function selectedSubject() {
   return curriculumManifest.subjects.find(subject => subject.id === id) || null;
 }
 function subjectDisplayName() {
+  if (isSenior()) return seniorSubject()?.name || "this senior subject";
   return selectedSubject()?.name || $('subject').selectedOptions[0]?.textContent || 'this subject';
 }
 function selectedCourse() {
@@ -38,6 +39,7 @@ function contextMatches(item) {
     item.subject === subject.sourceSubject && item.course === course?.id && item.level === selectedLevel();
 }
 function clearCurriculumSelection(clearGenerated = false) {
+  seniorClear(clearGenerated);
   if (clearGenerated && ((selectedCurriculum && $('difficulty').value === selectedCurriculumText) ||
       (lastUnsureText && $('difficulty').value === lastUnsureText))) $('difficulty').value = '';
   selectedCurriculum = null; selectedCurriculumText = ''; lastUnsureText = '';
@@ -52,6 +54,7 @@ function unsureSentence() {
     ' difficult, but I am not sure which skill is the problem. Ask one simple question to help identify a starting point before building.';
 }
 function syncCurriculumAudience() {
+  seniorSyncAudience();
   if (lastUnsureText && $('difficulty').value === lastUnsureText) {
     lastUnsureText = unsureSentence(); $('difficulty').value = lastUnsureText;
   }
@@ -154,6 +157,11 @@ async function loadSubject(subject) {
 }
 async function refreshCurriculum(options = {}) {
   const ticket = ++loadVersion;
+  $("f10-details").hidden = isSenior();
+  $("school-year-hint").textContent = isSenior() ? "Choose the course details below. School year does not determine the unit or level." : "Foundation is also called Prep, Reception or Kindergarten in some schools. Choose ‘Not sure’ if needed.";
+  $("senior-picker").hidden = !isSenior();
+  if (isSenior()) { subjectData = null; pickerState = "choose"; refreshSenior(); return; }
+  ++seniorTicket;
   subjectData = null;
   configureCourses(options.resetSequence,options.resetPath,options.resetLevel);
   const subject = selectedSubject(), course = selectedCourse(), year = schoolYearNumber();
@@ -176,6 +184,7 @@ function eligibleItems() {
   return pickerState === 'ready' && course ? subjectData.items.filter(item => item.course === course.id && item.level === selectedLevel()) : [];
 }
 function renderExamples() {
+  if (isSenior()) { renderSenior(); return; }
   const subject = selectedSubject(), year = schoolYearNumber();
   const ready = pickerState === 'ready';
   $('curriculum-picker').hidden = !ready;
@@ -234,6 +243,7 @@ function renderExamples() {
     'Selected: ' + selectedCurriculum.label + '. You can edit the wording below; editing removes the curriculum link.' : '';
 }
 function curriculumPromptContext() {
+  if (isSenior()) return seniorPromptContext();
   const subject = selectedSubject(), course = selectedCourse();
   let text = '\nSchool year: ' + schoolYearLabel($('school-year').value) + '.\nSubject: ' + subjectDisplayName() + '.\n';
   if (subject?.framework && $('language-name').value.trim()) text += 'Language being studied: ' + $('language-name').value.trim() + '.\n';
@@ -265,6 +275,7 @@ function changeContext(options = {}) {
   refreshCurriculum(options); resizeDifficulty();
 }
 function initCurriculumPicker() {
+  initSenior();
   for (const value of ['F','1','2','3','4','5','6','7','8','9','10','11','12','unsure'])
     addOption($('school-year'),value,schoolYearLabel(value));
   updateSubjects();

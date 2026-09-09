@@ -1,0 +1,18 @@
+{
+  "release": "20260909-senior-1",
+  "ibListed": 174,
+  "vceListed": 126,
+  "ibExclusions": {
+    "100128": "Discontinued 2025",
+    "158712": "Discontinued 2025",
+    "108714": "Last assessment May 2026",
+    "158711": "Discontinued 2017",
+    "100657": "CP core, not DP"
+  },
+  "sha256": "334e19744e8680d965fc9d9c85abf3a1cb056cb01acf4b5a7f702e0773b8db69",
+  "counts": {
+    "IB": 179,
+    "VCE": 137
+  },
+  "topicCount": 2110
+}

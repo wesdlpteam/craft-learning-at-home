@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Dance",
+    "group": "Performing Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/dance/dance"
+  },
+  {
+    "name": "Drama",
+    "group": "Performing Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/drama/drama"
+  },
+  {
+    "name": "Music",
+    "group": "Performing Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/music/music"
+  },
+  {
+    "name": "Theatre Studies",
+    "group": "Performing Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/theatre-studies/vce-theatre-studies-study-design"
+  },
+  {
+    "name": "Art Creative Practice",
+    "group": "Visual Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/art-creative-practice/vce-art-creative-practice"
+  },
+  {
+    "name": "Art Making and Exhibiting",
+    "group": "Visual Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/art-making-and-exhibiting/vce-art-making-and-exhibiting"
+  },
+  {
+    "name": "Media",
+    "group": "Visual Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/media/media"
+  },
+  {
+    "name": "Visual Communication Design",
+    "group": "Visual Arts",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/visual-communication-design/visual-communication-design"
+  },
+  {
+    "name": "VCE VM Literacy",
+    "group": "VCE Vocational Major",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/vce-vm-literacy/vce-vocational-major-literacy"
+  },
+  {
+    "name": "VCE VM Numeracy",
+    "group": "VCE Vocational Major",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/vce-vm-numeracy/vce-vocational-major-numeracy"
+  },
+  {
+    "name": "VCE VM Work Related Skills",
+    "group": "VCE Vocational Major",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/vce-vm-work-related-skills/vce-vocational-major-work-related-skills"
+  },
+  {
+    "name": "VCE VM Personal Development Skills",
+    "group": "VCE Vocational Major",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/vce-vm-personal-development-skills/vce-vocational-major-personal-development-skills"
+  },
+  {
+    "name": "Agricultural and Horticultural Studies",
+    "group": "Design and Technologies",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/agricultural-and-horticultural-studies/agricultural-and-horticultural-studies"
+  },
+  {
+    "name": "Food Studies",
+    "group": "Design and Technologies",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/food-studies/vce-food-studies"
+  },
+  {
+    "name": "Product Design and Technologies",
+    "group": "Design and Technologies",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/product-design-and-technologies/product-design-and-technologies"
+  },
+  {
+    "name": "Systems Engineering",
+    "group": "Design and Technologies",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/system-engineering/systems-engineering"
+  },
+  {
+    "name": "Foundation Mathematics",
+    "group": "Mathematics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/foundation-mathematics/vce-foundation-mathematics"
+  },
+  {
+    "name": "General Mathematics",
+    "group": "Mathematics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/general-mathematics/vce-general-mathematics"
+  },
+  {
+    "name": "Mathematical Methods",
+    "group": "Mathematics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods"
+  },
+  {
+    "name": "Specialist Mathematics",
+    "group": "Mathematics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics"
+  },
+  {
+    "name": "Structured Workplace Learning Recognition for VET",
+    "group": "Structured Workplace Learning Recognition for VET",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/swlr-vet/structured-workplace-learning-recognition-vet"
+  },
+  {
+    "name": "Agriculture, Horticulture, Conservation and Ecosystem Management",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-agriculture-horticulture-conservation-and-ecosystem-management"
+  },
+  {
+    "name": "Animal Care",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-animal-care"
+  },
+  {
+    "name": "Apparel, Fashion and Textiles",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-apparel-fashion-and-textiles"
+  },
+  {
+    "name": "Applied Language",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-applied-language"
+  },
+  {
+    "name": "Automotive",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-automotive"
+  },
+  {
+    "name": "Building and Construction",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-building-and-construction"
+  },
+  {
+    "name": "Business",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-business"
+  },
+  {
+    "name": "Cisco",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-cisco"
+  },
+  {
+    "name": "Civil Infrastructure",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-civil-infrastructure"
+  },
+  {
+    "name": "Community Services",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-community-services"
+  },
+  {
+    "name": "Creative and Digital Media",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-creative-and-digital-media"
+  },
+  {
+    "name": "Dance",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-dance"
+  },
+  {
+    "name": "Electrical Industry",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-electrical-industry"
+  },
+  {
+    "name": "Engineering Studies",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-engineering-studies"
+  },
+  {
+    "name": "Equine Studies",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-equine-studies"
+  },
+  {
+    "name": "Events and Tourism",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-events-and-tourism"
+  },
+  {
+    "name": "Furnishing",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-furnishing"
+  },
+  {
+    "name": "Hair and Beauty",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-hair-and-beauty"
+  },
+  {
+    "name": "Health",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-health"
+  },
+  {
+    "name": "Hospitality",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-hospitality"
+  },
+  {
+    "name": "Information and Communications Technology",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-information-and-communications-technology"
+  },
+  {
+    "name": "Integrated Technologies",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-integrated-technologies"
+  },
+  {
+    "name": "Laboratory Skills",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-laboratory-skills"
+  },
+  {
+    "name": "Music",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-music"
+  },
+  {
+    "name": "Plumbing",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-plumbing"
+  },
+  {
+    "name": "Renewable Energy",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-renewable-energy"
+  },
+  {
+    "name": "Small Business",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-small-business"
+  },
+  {
+    "name": "Sport and Recreation",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-sport-and-recreation"
+  },
+  {
+    "name": "Visual Arts",
+    "group": "VCE VET programs",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vet/vce-vet-programs/vce-vet-visual-arts"
+  },
+  {
+    "name": "Bridging English as an Additional Language",
+    "group": "English",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/bridging-english-additional-language/bridging-english-additional-language-eal"
+  },
+  {
+    "name": "English and English as an Additional Language",
+    "group": "English",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal"
+  },
+  {
+    "name": "English Language",
+    "group": "English",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-language/english-language"
+  },
+  {
+    "name": "Foundation English",
+    "group": "English",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/foundation-english/foundation-english"
+  },
+  {
+    "name": "Literature",
+    "group": "English",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/literature/vce-literature"
+  },
+  {
+    "name": "Biology",
+    "group": "Science",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/biology/biology"
+  },
+  {
+    "name": "Chemistry",
+    "group": "Science",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/chemistry/chemistry"
+  },
+  {
+    "name": "Environmental Science",
+    "group": "Science",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/environmental-science/environmental-science"
+  },
+  {
+    "name": "Physics",
+    "group": "Science",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/physics/physics"
+  },
+  {
+    "name": "Psychology",
+    "group": "Science",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/psychology/vce-psychology"
+  },
+  {
+    "name": "Accounting",
+    "group": "Business and Economics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/accounting/accounting"
+  },
+  {
+    "name": "Business Management",
+    "group": "Business and Economics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/business-management/vce-business-management"
+  },
+  {
+    "name": "Economics",
+    "group": "Business and Economics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/economics/vce-economics"
+  },
+  {
+    "name": "Industry and Enterprise",
+    "group": "Business and Economics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/industry-and-enterprise/industry-and-enterprise"
+  },
+  {
+    "name": "Legal Studies",
+    "group": "Business and Economics",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/legal-studies/legal-studies"
+  },
+  {
+    "name": "Classical Studies",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/classical-studies/classical-studies"
+  },
+  {
+    "name": "Geography",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/geography/geography"
+  },
+  {
+    "name": "History",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/history-ancient/history"
+  },
+  {
+    "name": "Philosophy",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/philosophy/philosophy"
+  },
+  {
+    "name": "Politics",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/politics/vce-politics"
+  },
+  {
+    "name": "Religion and Society",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/religion-and-society/vce-religion-and-society"
+  },
+  {
+    "name": "Sociology",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/sociology/sociology"
+  },
+  {
+    "name": "Texts and Traditions",
+    "group": "Humanities",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/texts-and-traditions/vce-texts-and-traditions"
+  },
+  {
+    "name": "Health and Human Development",
+    "group": "Health and Physical Education",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/health-and-human-development/health-and-human-development"
+  },
+  {
+    "name": "Outdoor and Environmental Studies",
+    "group": "Health and Physical Education",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/outdoor-and-environmental-studies/outdoor-and-environmental-studies"
+  },
+  {
+    "name": "Physical Education",
+    "group": "Health and Physical Education",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/physical-education/physical-education"
+  },
+  {
+    "name": "Algorithmics (HESS)",
+    "group": "Digital Technologies",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/algorithms-hess/vce-algorithmics-hess"
+  },
+  {
+    "name": "Applied Computing",
+    "group": "Digital Technologies",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/applied-computing-data-analytics/applied-computing"
+  },
+  {
+    "name": "Extended Investigation",
+    "group": "Extended Investigation",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/extended-investigation/extended-investigation"
+  },
+  {
+    "name": "Chinese First Language",
+    "group": "First Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/chinese-first-language/advice-teachers/chinese-first-language"
+  },
+  {
+    "name": "Indonesian First Language",
+    "group": "First Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/indonesian-first-language/indonesian-first-language"
+  },
+  {
+    "name": "Japanese First Language",
+    "group": "First Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/japanese-first-language/japanese-first-language"
+  },
+  {
+    "name": "Korean First Language",
+    "group": "First Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/korean-first-language/korean-first-language"
+  },
+  {
+    "name": "Vietnamese First Language",
+    "group": "First Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/vietnamese-first-language/vietnamese-first-language"
+  },
+  {
+    "name": "Arabic",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/arabic/arabic"
+  },
+  {
+    "name": "Chinese Second Language",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/chinese-second-language/chinese-second-language"
+  },
+  {
+    "name": "Chinese Second Language Advanced",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/chinese-second-language-advanced/chinese-second-language-advanced"
+  },
+  {
+    "name": "Chinese Language, Culture and Society",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/chinese-language-culture-and-society/vce-chinese-language-culture-and-society"
+  },
+  {
+    "name": "French",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/french/french"
+  },
+  {
+    "name": "German",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/german/german"
+  },
+  {
+    "name": "Greek",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/greek/greek"
+  },
+  {
+    "name": "Indonesian Second Language",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/indonesian-second-language/indonesian-second-language"
+  },
+  {
+    "name": "Italian",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/italian/italian"
+  },
+  {
+    "name": "Japanese Second Language",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/japanese-second-language/japanese-second-language"
+  },
+  {
+    "name": "Korean Second Language",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/korean-second-language/korean-second-language"
+  },
+  {
+    "name": "Spanish",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/spanish"
+  },
+  {
+    "name": "Vietnamese Second Language",
+    "group": "Second Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/vietnamese-second-language/vietnamese-second-language"
+  },
+  {
+    "name": "Armenian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/armenian/armenian"
+  },
+  {
+    "name": "Auslan",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/auslan/auslan"
+  },
+  {
+    "name": "Bengali",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/bengali/bengali"
+  },
+  {
+    "name": "Bosnian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/bosnian/bosnian"
+  },
+  {
+    "name": "Chin Hakha",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/chin-hakha/chin-hakha"
+  },
+  {
+    "name": "Croatian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/croatian/croatian"
+  },
+  {
+    "name": "Dutch",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/dutch/dutch"
+  },
+  {
+    "name": "Filipino",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/filipino/filipino"
+  },
+  {
+    "name": "Hebrew",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/hebrew/hebrew"
+  },
+  {
+    "name": "Hindi",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/hindi/hindi"
+  },
+  {
+    "name": "Hungarian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/hungarian/hungarian"
+  },
+  {
+    "name": "Karen",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/karen/karen"
+  },
+  {
+    "name": "Khmer",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/khmer/khmer"
+  },
+  {
+    "name": "Macedonian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/macedonian/macedonian"
+  },
+  {
+    "name": "Persian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/persian/persian"
+  },
+  {
+    "name": "Polish",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/polish/polish"
+  },
+  {
+    "name": "Portuguese",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/portuguese/portuguese"
+  },
+  {
+    "name": "Punjabi",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/punjabi/punjabi"
+  },
+  {
+    "name": "Romanian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/romanian/romanian"
+  },
+  {
+    "name": "Russian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/russian/russian"
+  },
+  {
+    "name": "Serbian",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/serbian/serbian"
+  },
+  {
+    "name": "Sinhala",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/sinhala/sinhala"
+  },
+  {
+    "name": "Swedish",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/swedish/swedish"
+  },
+  {
+    "name": "Tamil",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/tamil/tamil"
+  },
+  {
+    "name": "Turkish",
+    "group": "Collaborative Curriculum and Assessment Framework for Languages (CCAFL)",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/turkish/turkish"
+  },
+  {
+    "name": "Classical Greek",
+    "group": "Classical Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/classical-greek/classical-greek"
+  },
+  {
+    "name": "Classical Hebrew",
+    "group": "Classical Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/classical-hebrew/classical-hebrew"
+  },
+  {
+    "name": "Latin",
+    "group": "Classical Languages",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/latin/latin"
+  },
+  {
+    "name": "Aboriginal Languages of Victoria",
+    "group": "Aboriginal Languages of Victoria",
+    "url": "https://www.vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/aboriginal-languages-victoria/vce-aboriginal-languages-victoria"
+  }
+]

@@ -1,0 +1,1352 @@
+{
+  "source": "https://ibo.org/globalassets/new-structure/programmes/dp/pdfs/all-dp-subjects-list-en.pdf",
+  "checked": "2026-09-09",
+  "excluded": {
+    "100128": "Discontinued 2025",
+    "158712": "Discontinued 2025",
+    "108714": "Last assessment May 2026",
+    "158711": "Discontinued 2017",
+    "100657": "CP core, not DP"
+  },
+  "subjects": [
+    {
+      "code": "112826",
+      "row": "AFRIKAANS A: Literature AFRIKAANS A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112815",
+      "row": "ALBANIAN A: Literature ALBANIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112766",
+      "row": "AMHARIC A: Literature AMHARIC A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112739",
+      "row": "ARABIC A: Lang and Literature ARABIC A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112721",
+      "row": "ARABIC A: Literature ARABIC A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112813",
+      "row": "ARMENIAN A: Literature ARMENIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112903",
+      "row": "AZERBAIJANI A: Literature AZERBAIJANI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112875",
+      "row": "B/RUSIAN A: Literature BELARUSIAN A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112897",
+      "row": "BEMBA A: Literature BEMBA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112831",
+      "row": "BENGALI A: Literature BENGALI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112758",
+      "row": "BOSNIAN A: Literature BOSNIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112775",
+      "row": "BULGARIAN A: Literature BULGARIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112814",
+      "row": "BURMESE A: Literature BURMESE A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112764",
+      "row": "CATALAN A: Literature CATALAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112910",
+      "row": "CHICHEWA A: Literature CHICHEWA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112740",
+      "row": "CHINESE A: Lang and Literature CHINESE A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112724",
+      "row": "CHINESE A: Literature CHINESE A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112761",
+      "row": "CROATIAN A: Literature CROATIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112725",
+      "row": "CZECH A: Literature CZECH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112755",
+      "row": "DANISH A: Literature DANISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112738",
+      "row": "DUTCH A: Lang and Literature DUTCH A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112720",
+      "row": "DUTCH A: Literature DUTCH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112879",
+      "row": "DZONGKHA A: Literature DZONGKHA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112733",
+      "row": "ENGLISH A: Lang and Literature ENGLISH A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112711",
+      "row": "ENGLISH A: Literature ENGLISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112859",
+      "row": "ESTONIAN A: Literature ESTONIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "116711",
+      "row": "FILIPINO A: Literature FILIPINO A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112726",
+      "row": "FINNISH A: Literature FINNISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112734",
+      "row": "FRENCH A: Lang and Literature FRENCH A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112750",
+      "row": "FRENCH A: Literature FRENCH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112877",
+      "row": "GEORGIAN A: Literature GEORGIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112735",
+      "row": "GERMAN A: Lang and Literature GERMAN A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112751",
+      "row": "GERMAN A: Literature GERMAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "175712",
+      "row": "GUARANI A: Literature GUARANI A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112722",
+      "row": "HEBREW A: Literature HEBREW A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112747",
+      "row": "HINDI A: Literature HINDI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112748",
+      "row": "HUNGARIAN A: Literature HUNGARIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112883",
+      "row": "ICELANDIC A: Literature ICELANDIC A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "125711",
+      "row": "INDONESIAN A: Lang and Literature INDONESIAN A: Lang and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112749",
+      "row": "INDONESIAN A: Literature INDONESIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112838",
+      "row": "ITALIAN A: Lang and Literature ITALIAN A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112753",
+      "row": "ITALIAN A: Literature ITALIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "128711",
+      "row": "JAPANESE A: Lang and Literature JAPANESE A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112743",
+      "row": "JAPANESE A: Literature JAPANESE A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112804",
+      "row": "KAZAKH A: Literature KAZAKH A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112896",
+      "row": "KHMER A: Literature KHMER A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "115711",
+      "row": "KINYARWANDA A: Literature KINYARWANDA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "178713",
+      "row": "KISWAHILI A: Literature KISWAHILI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "115715",
+      "row": "KOREAN A: Lang and Literature KOREAN A: Lang and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112744",
+      "row": "KOREAN A: Literature KOREAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112881",
+      "row": "LAO A: Literature LAO A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112723",
+      "row": "LATVIAN A: Literature LATVIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112845",
+      "row": "LITERATURE AND PERFORMANCE Literature and Performance Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112765",
+      "row": "LITHUANIAN A: Literature LITHUANIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112841",
+      "row": "LUGANDA A: Literature LUGANDA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112712",
+      "row": "MACEDONIAN A: Literature MACEDONIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "155711",
+      "row": "MALAGASY A: Literature MALAGASY A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112745",
+      "row": "MALAY A: Literature MALAY A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112867",
+      "row": "MALAYALAM A: Literature MALAYALAM A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112732",
+      "row": "MOD. GREEK A: Lang and Literature MODERN GREEK A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112727",
+      "row": "MOD. GREEK A: Literature MODERN GREEK A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112882",
+      "row": "MONGOLIAN A: Literature MONGOLIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112819",
+      "row": "NDEBELE A: Literature NDEBELE A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112763",
+      "row": "NEPALI A: Literature NEPALI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112840",
+      "row": "NORWEGIAN A: Lang and Literature NORWEGIAN A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112756",
+      "row": "NORWEGIAN A: Literature NORWEGIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112746",
+      "row": "PERSIAN A: Literature PERSIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112717",
+      "row": "POLISH A: Literature POLISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112730",
+      "row": "PORTUGUESE A: Lang and Literature PORTUGUESE A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112718",
+      "row": "PORTUGUESE A: Literature PORTUGUESE A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112801",
+      "row": "PUNJABI A: Literature PUNJABI A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112886",
+      "row": "ROMANIAN A: Literature ROMANIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112839",
+      "row": "RUSSIAN A: Lang and Literature RUSSIAN A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112754",
+      "row": "RUSSIAN A: Literature RUSSIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112759",
+      "row": "SERBIAN A: Literature SERBIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112762",
+      "row": "SESOTHO A: Literature SESOTHO A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112832",
+      "row": "SHONA A: Literature SHONA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "177711",
+      "row": "SINHALA A: Literature SINHALA A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112880",
+      "row": "SISWATI A: Literature SISWATI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112760",
+      "row": "SLOVAK A: Literature SLOVAK A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112741",
+      "row": "SLOVENE A: Literature SLOVENE A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112800",
+      "row": "SOMALI A: Literature SOMALI A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112736",
+      "row": "SPANISH A: Lang and Literature SPANISH A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112752",
+      "row": "SPANISH A: Literature SPANISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112737",
+      "row": "SWEDISH A: Lang and Literature SWEDISH A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112757",
+      "row": "SWEDISH A: Literature SWEDISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112878",
+      "row": "TAJIK A: Literature TAJIK A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112810",
+      "row": "TAMIL A: Literature TAMIL A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112901",
+      "row": "TELUGU A: Literature TELUGU A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112731",
+      "row": "THAI A: Lang and Literature THAI A Language and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112713",
+      "row": "THAI A: Literature THAI A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112835",
+      "row": "TIBETAN A: Literature TIBETAN A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "112714",
+      "row": "TURKISH A: Literature TURKISH A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112802",
+      "row": "UKRAINIAN A: Literature UKRAINIAN A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112885",
+      "row": "URDU A: Literature URDU A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "180711",
+      "row": "UYGHUR A: Literature UYGHUR A: Literature Yes Studies in language and literature",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "174711",
+      "row": "VIETNAMESE A: Lang and Literature VIETNAMESE A: Lang and Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112884",
+      "row": "VIETNAMESE A: Literature VIETNAMESE A: Literature Yes Yes Studies in language and literature",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "112715",
+      "row": "WELSH A: Literature WELSH A: Literature Yes Studies in language and literature LANGUAGE ACQUISITION",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100052",
+      "row": "ARABIC AB. ARABIC Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100053",
+      "row": "ARABIC B ARABIC B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "117712",
+      "row": "CHINESE B - CANTONESE CHINESE B - CANTONESE Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "117711",
+      "row": "CHINESE B - MANDARIN CHINESE B - MANDARIN Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100129",
+      "row": "CLASS.GREEK CLASSIC GREEK Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "162711",
+      "row": "DANISH AB. DANISH Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100144",
+      "row": "DANISH B DANISH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "167711",
+      "row": "DUTCH AB. DUTCH Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100157",
+      "row": "DUTCH B DUTCH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100704",
+      "row": "ENGLISH AB. ENGLISH Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100179",
+      "row": "ENGLISH B ENGLISH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100204",
+      "row": "FINNISH B FINNISH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100213",
+      "row": "FRENCH AB. FRENCH Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100214",
+      "row": "FRENCH B FRENCH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100230",
+      "row": "GERMAN AB. GERMAN Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100231",
+      "row": "GERMAN B GERMAN B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100246",
+      "row": "HEBREW B HEBREW B Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100252",
+      "row": "HINDI B HINDI B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100283",
+      "row": "INDONESIAN AB INDONESIAN Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100284",
+      "row": "INDONESIAN B INDONESIAN B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100298",
+      "row": "ITALIAN AB. ITALIAN Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100299",
+      "row": "ITALIAN B ITALIAN B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100307",
+      "row": "JAPANESE AB. JAPANESE Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100308",
+      "row": "JAPANESE B JAPANESE B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "178714",
+      "row": "KISWAHILI AB. KISWAHILI Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "178712",
+      "row": "KISWAHILI B KISWAHILI B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100334",
+      "row": "KOREAN B KOREAN B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100340",
+      "row": "LATIN LATIN Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100367",
+      "row": "MALAY B MALAY B Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100375",
+      "row": "MANDARIN AB. MANDARIN Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100424",
+      "row": "NORWEGIAN B NORWEGIAN B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100472",
+      "row": "PORTUGUESE B PORTUGUESE B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100492",
+      "row": "RUSSIAN AB. RUSSIAN Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100493",
+      "row": "RUSSIAN B RUSSIAN B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100542",
+      "row": "SPANISH AB. SPANISH Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100543",
+      "row": "SPANISH B SPANISH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "162712",
+      "row": "SWEDISH AB. SWEDISH Ab Initio Yes Language acquisition",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100559",
+      "row": "SWEDISH B SWEDISH B Yes Yes Language acquisition",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100563",
+      "row": "TAMIL B TAMIL B Yes Language acquisition INDIVIDUALS AND SOCIETIES",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100058",
+      "row": "ART HISTORY ART HISTORY Yes Individuals and societies",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100068",
+      "row": "ASTRONOMY ASTRONOMY Yes Individuals and societies",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "101711",
+      "row": "BRAZ.SOC.STUD BRAZILIAN SOCIAL STUDIES Yes Individuals and societies",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "147712",
+      "row": "BUSINESS MANAGEMENT BUSINESS MANAGEMENT Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "179711",
+      "row": "DIGITAL SOC. DIGITAL SOCIETIES Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100164",
+      "row": "ECONOMICS ECONOMICS Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "123711",
+      "row": "GLOBAL POLITICS GLOBAL POLITICS Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100680",
+      "row": "HISTORY HISTORY Yes Individuals and societies",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "149713",
+      "row": "HISTORY AFRICA AND MIDDLE EAST HISTORY AFRICA AND MIDDLE EAST Yes Individuals and societies",
+      "levels": [
+        "HL"
+      ]
+    },
+    {
+      "code": "149711",
+      "row": "HISTORY AMERICAS HISTORY AMERICAS Yes Individuals and societies",
+      "levels": [
+        "HL"
+      ]
+    },
+    {
+      "code": "149714",
+      "row": "HISTORY ASIA AND OCEANIA HISTORY ASIA AND OCEANIA Yes Individuals and societies",
+      "levels": [
+        "HL"
+      ]
+    },
+    {
+      "code": "149712",
+      "row": "HISTORY EUROPE HISTORY EUROPE Yes Individuals and societies",
+      "levels": [
+        "HL"
+      ]
+    },
+    {
+      "code": "100449",
+      "row": "PHILOSOPHY PHILOSOPHY Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100474",
+      "row": "PSYCHOLOGY PSYCHOLOGY Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100532",
+      "row": "SOC.CUL.ANTH. SOCIAL AND CULTURAL ANTHOPOLOGY Yes Yes Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "107711",
+      "row": "TURKEY IN THE 20TH CENTURY TURKEY IN THE 20TH CENTURY Yes Individuals and societies",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100619",
+      "row": "WORLD RELIG. WORLD RELIGIONS Yes Individuals and societies SCIENCES",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100088",
+      "row": "BIOLOGY BIOLOGY Yes Yes Sciences",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100113",
+      "row": "CHEMISTRY CHEMISTRY Yes Yes Sciences",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100132",
+      "row": "COMPUTER SC. COMPUTER SCIENCE Yes Yes Sciences",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100146",
+      "row": "DESIGN TECH. DESIGN TECHOLOGY Yes Yes Sciences",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100222",
+      "row": "GEOGRAPHY GEOGRAPHY Yes Yes Sciences",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100671",
+      "row": "MARINE SCIENCE MARINE SCIENCE Yes Sciences",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100452",
+      "row": "PHYSICS PHYSICS Yes Yes Sciences",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100546",
+      "row": "SPORTS EX SCI SPORTS EXERCISE AND HEALTH SCIENCE Yes Yes Sciences MATHEMATICS",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "166711",
+      "row": "MATHEMATICS ANALYSIS AND APPROACHES MATHEMATICS ANALYSIS AND APPROACHES Yes Yes Mathematics",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "166712",
+      "row": "MATHEMATICS APPLICATIONS AND INTERP MATHEMATICS APPLICATIONS AND INTERPRETATIONS Yes Yes Mathematics ARTS",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100140",
+      "row": "DANCE DANCE Yes Yes Arts",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100200",
+      "row": "FILM FILM Yes Yes Arts",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "182711",
+      "row": "LITERARY ART LITERARY ART Yes Arts",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "100402",
+      "row": "MUSIC MUSIC Yes Yes Arts",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100575",
+      "row": "THEATRE THEATRE Yes Yes Arts",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100608",
+      "row": "VISUAL ARTS VISUAL ARTS Yes Yes Arts INTERDISCIPLINARY ETC.",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "100673",
+      "row": "ENV. AND SOC. ENVIRONMENTAL SYSTEMS AND SOCIETIES Yes Yes Sciences AND Individuals and societies",
+      "levels": [
+        "SL",
+        "HL"
+      ]
+    },
+    {
+      "code": "184711",
+      "row": "LANGUAGE AND CULTURE LANGUAGE AND CULTURE Yes Studies in language and literature AND individuals and societies",
+      "levels": [
+        "SL"
+      ]
+    },
+    {
+      "code": "150711",
+      "row": "NATURE OF SCIENCE NATURE OF SCIENCE Yes",
+      "levels": [
+        "SL"
+      ]
+    }
+  ]
+}
