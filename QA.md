@@ -115,3 +115,12 @@ Removed the downloadable-file alternative from generated instructions. The openi
 QA inventory: `output/artifact-tool-QA.md`. Parent and student normal form flows passed in Playwright: no HTML wording in either generated test prompt, required Artifact tool/panel wording present, supplied fraction difficulty retained, automatic publishing prohibited. Both existing curriculum checks passed. Browser console: 0 errors and warnings. Desktop 1280x900 and mobile 390x844 had no horizontal overflow.
 
 Opened and visually inspected all four full-page screenshots in `output/playwright/`: `artifact-tool-parent-initial.png` and `artifact-tool-parent-prompt.png` (desktop initial/result), `artifact-tool-student-initial.png` and `artifact-tool-student-prompt.png` (mobile initial/result). Text, controls and prompt opening are readable, with clean wrapping and no unintended clipping. This verifies the builder's instructions, not a guarantee of Claude's subsequent behaviour.
+
+
+## Australian hobbies and phrasing — 9 September 2026
+
+Prompt guidance now defaults unqualified football/footy to Australian rules football (AFL) for this app's family context, respects explicitly named other codes, and uses Australian wording, spelling, metric units, dollars and local settings. Other materially ambiguous interests can trigger a short clarification. The interests placeholder now says footy (AFL).
+
+Verified normal parent and student flows with football/footy and explicit soccer/netball interests. Both test prompts retain the supplied hobby, include the AFL default and explicit-choice exception, preserve Artifact-tool instructions and manual publishing, and contain no HTML-file wording. Existing F–10 and senior static checks pass. Browser console: 0 errors/warnings; no horizontal overflow.
+
+QA inventory: output/australian-context-QA.md. Four screenshots in CODEX_VISUAL_EVIDENCE_DIR were opened and visually inspected: australian-parent-interests.png and australian-parent-prompt.png (1280x900); australian-student-interests.png and australian-student-prompt.png (390x844). Interest controls and scrollable prompt previews are readable with clean wrapping. These checks verify the generated instructions; Claude's resulting activity was not generated or independently assessed.
