@@ -120,7 +120,7 @@ const approaches = {
   unsure: 'Choose a simple approach suited to the difficulty: start with a visual example, then guided practice.'
 };
 function buildPrompt() {
-  const prompt = `I want to make an artifact: an interactive web page created with Claude's Artifact tool. Build it for me to review. Do not publish or share it automatically.
+  const prompt = `I want to make a Claude artifact. Use Claude's Artifact tool to create a working, interactive learning app in the artifact panel. Build it for me to review. Do not publish or share it automatically.
 
 My answers are below: use them first and ask only about important details that are still missing. If the brief is sufficient, build the artifact without repeating the questions.
 
@@ -144,7 +144,9 @@ THE ACTIVITY
 - Use only the supplied curriculum references. Do not invent references, claim curriculum authority endorsement or diagnose learning difficulties.
 
 BUILD AND PRESENTATION
-- Build the working interactive web page using Claude's Artifact tool, not only a downloadable HTML file, a code block or a lesson plan.
+- Use Claude's Artifact tool to create and display the working interactive app in the artifact panel. Deliver the functional artifact itself.
+- Before finishing, check that you have created the interactive artifact and that it is available in the artifact panel for me to try.
+- If the Artifact tool is unavailable in this chat, explain that clearly and ask me to open a Claude chat with Artifacts enabled. Do not claim that an artifact has been created.
 - Create the artifact for review only. Do not publish it, enable sharing or create a public link. Leave publishing and sharing to me; explain those steps only if I ask.
 - Make it work on a phone and computer, with large labelled controls, keyboard access, readable text, good contrast and short instructions. Do not rely on colour alone.
 - Keep it calm: no timers, rankings, penalties, distracting animation or required sound.

@@ -106,3 +106,12 @@ Final visual evidence (local, ignored under `output/playwright/`):
 - `senior-mobile-selected.png`: student, programming topic and worked-example help selected; complete wording and next-step controls visible.
 
 Browser scripts are retained in ignored `output/senior/`. The checks validate this prompt builder and its stated outline coverage; they do not certify the content or publishing permissions of an artifact subsequently created in Claude.
+
+
+## Explicit Artifact tool output — 9 September 2026
+
+Removed the downloadable-file alternative from generated instructions. The opening and build section explicitly require Claude's Artifact tool and a working app in the artifact panel. A tool-unavailable instruction prevents claiming an artifact was created when it was not. Publishing remains manual.
+
+QA inventory: `output/artifact-tool-QA.md`. Parent and student normal form flows passed in Playwright: no HTML wording in either generated test prompt, required Artifact tool/panel wording present, supplied fraction difficulty retained, automatic publishing prohibited. Both existing curriculum checks passed. Browser console: 0 errors and warnings. Desktop 1280x900 and mobile 390x844 had no horizontal overflow.
+
+Opened and visually inspected all four full-page screenshots in `output/playwright/`: `artifact-tool-parent-initial.png` and `artifact-tool-parent-prompt.png` (desktop initial/result), `artifact-tool-student-initial.png` and `artifact-tool-student-prompt.png` (mobile initial/result). Text, controls and prompt opening are readable, with clean wrapping and no unintended clipping. This verifies the builder's instructions, not a guarantee of Claude's subsequent behaviour.
