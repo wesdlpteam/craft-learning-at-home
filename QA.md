@@ -45,3 +45,17 @@ Reference: https://support.claude.com/en/articles/9487310-what-are-artifacts-and
 Teacher, parent and student output now requests creation with the Artifact tool for review only. Explicitly forbids automatic publishing, sharing or creating a public link and leaves publishing to the user. Checked full teacher wizard, both home audiences and copy actions. All prompt assertions passed. Home console: zero errors; teacher retains the known local analytics CORS errors. No horizontal overflow.
 
 Visually inspected final prompt/copy states: review-first-teacher-desktop.png (1280x900), review-first-teacher-mobile.png (390x844), review-first-home-desktop.png (1280x900 parent), review-first-home-mobile.png (390x844 student), all in output/playwright. Wording and controls are readable. Teacher screenshots captured with animations disabled to avoid recording mid-fade. No Claude artifact was published during testing.
+
+## Maths curriculum picker — 9 September 2026
+
+- PASS: node scripts/check-curriculum.cjs — 240 unique descriptors, 11 year counts, code/year/strand mapping, valid labels and JavaScript syntax.
+- PASS: every official description, code, year and strand compared with the extracted ACARA V9 workbook.
+- PASS: real-browser clicks of all 240 skill choices; each prompt contains the matching code and official description.
+- PASS: Year 6 fraction addition/subtraction produces AC9M6N05; earlier Year 2 topic retains school year Year 6.
+- PASS: parent/student wording, manual edit removal of mapping, year/subject change, general subject filters, unsure path, senior/unknown-year fallback, reset and required-field validation.
+- PASS: copy feedback and explicit review-only artifact instructions; desktop and mobile prompt generation; keyboard activation.
+- PASS: desktop 1280x900 and mobile 390x844 initial and selected states. Full-page screenshots opened and inspected: readable text, wrapping, selected state, spacing, focus and no horizontal overflow. A stray encoding character was fixed and screenshots recaptured.
+- PASS: browser console 0 errors, 0 warnings. Network inspection showed only the page and its three local JavaScript assets.
+- Visual evidence (local, ignored): output/playwright/maths-desktop-initial.png, maths-desktop-selected.png, maths-mobile-initial.png, maths-mobile-selected.png.
+- QA inventory and browser check scripts are saved in output/curriculum/ (local, ignored).
+- Curriculum labels are simplified adaptations, not ACARA endorsement; full teaching elaborations, achievement standards and Year 10A are outside scope.

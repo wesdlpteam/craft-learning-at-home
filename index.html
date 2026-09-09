@@ -7,7 +7,8 @@
 <link rel="icon" href="data:,">
 <style>
 :root{--purple:#4f2759;--ink:#2b281f;--muted:#66615a;--line:#e6e2dd;--tint:#f4eef6}*{box-sizing:border-box}body{margin:0;background:#faf9f7;color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--purple)}nav{max-width:1020px;margin:auto;padding:20px 24px;display:flex;justify-content:space-between;gap:16px;align-items:center}nav strong{letter-spacing:.14em;font-size:14px}nav a{font-size:14px}header{background:var(--tint);padding:42px 24px 64px;text-align:center}.eyebrow{color:var(--purple);font-size:12px;font-weight:750;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(30px,5vw,44px);line-height:1.15;letter-spacing:-.035em;margin:12px 0 16px}header p{max-width:600px;margin:auto;color:var(--muted)}main{max-width:740px;margin:-28px auto 48px;padding:0 20px;position:relative}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:32px;box-shadow:0 8px 28px #2b281f06}.progress{display:flex;gap:8px;margin-bottom:26px}.progress span{height:5px;flex:1;background:var(--line);border-radius:6px}.progress .active{background:var(--purple)}h2{font-size:25px;line-height:1.25;margin:8px 0 12px;letter-spacing:-.02em}p{margin:0 0 20px}.muted,.hint{color:var(--muted)}label{display:block;font-weight:650;margin-top:22px}label small{font-weight:400;color:var(--muted)}.hint{font-size:14px;margin:5px 0 9px}input,select,textarea{width:100%;font:inherit;color:var(--ink);background:#fff;border:1px solid #aaa49e;border-radius:9px;padding:12px}textarea{resize:vertical;min-height:110px}button,.button{font:inherit;font-weight:650;border-radius:9px;min-height:46px;padding:10px 18px;cursor:pointer;border:1px solid var(--line);background:white;color:var(--purple);text-decoration:none;display:inline-block;text-align:center}.primary{background:var(--purple);border-color:var(--purple);color:white}button:hover,.button:hover{filter:brightness(.94)}:focus-visible{outline:3px solid #a2814a;outline-offset:3px}.actions{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;margin-top:28px}.examples{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.examples button{font-size:13px;padding:6px 11px;min-height:36px;background:var(--tint);border-color:var(--tint)}.note{border-left:3px solid #c59f40;padding:10px 16px;background:#faf8f1;font-size:14px;margin-top:24px}.foot{text-align:center;font-size:13px;color:var(--muted);margin:22px 0}.error{color:#a12828;margin-top:10px;font-size:14px}[hidden]{display:none!important}#prompt{min-height:280px;font-size:14px;background:#faf9f7}ol{padding-left:22px}li{margin-bottom:10px}#status{font-size:14px;color:var(--purple);margin-top:12px}@media(max-width:480px){nav{padding:16px 20px}header{padding:28px 20px 54px}.card{padding:23px 20px}main{padding:0 14px}h2{font-size:23px}.actions>*{flex:1}.actions{gap:8px}}
-.example-picker{margin-top:22px}.example-picker h3{font-size:14px;margin:14px 0 4px}.example-picker>h3{font-size:16px}.examples button{min-height:44px;font-size:14px}.example-picker summary{cursor:pointer;color:var(--purple);padding:10px 0;font-size:14px}.example-picker summary:focus-visible{outline:3px solid #a2814a;outline-offset:3px}</style>
+.example-picker{margin-top:22px}.example-picker h3{font-size:14px;margin:14px 0 4px}.example-picker>h3{font-size:16px}.examples button{min-height:44px;font-size:14px}.example-picker summary{cursor:pointer;color:var(--purple);padding:10px 0;font-size:14px}.example-picker summary:focus-visible{outline:3px solid #a2814a;outline-offset:3px}.topic-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.topic-card{text-align:left;padding:14px;display:flex;flex-direction:column;gap:4px;background:var(--tint)}.topic-card span{font-size:13px;font-weight:400;color:var(--muted)}.topic-card[aria-pressed="true"],.skill-list button[aria-pressed="true"]{border:2px solid var(--purple);background:#ece0f0}.skill-list{display:flex;flex-direction:column;gap:8px;margin:12px 0}.skill-list button{text-align:left;font-weight:500}#math-picker h3{font-size:18px;margin:24px 0 8px}summary{cursor:pointer;min-height:44px;padding:10px 0;color:var(--purple)}summary:focus-visible{outline:3px solid #a2814a}#math-selection:empty{display:none}.source-note{font-size:12px;color:var(--muted);margin-top:25px}.source-note p{margin-top:10px}@media(max-width:480px){.topic-grid{grid-template-columns:1fr}.topic-card{padding:12px}}
+</style>
 </head>
 <body>
 <nav aria-label="CRAFT versions"><strong>CRAFT <span style="font-weight:400;letter-spacing:0">/ at home</span></strong><a href="https://craft-app-builder.vercel.app/">For teachers ↗</a></nav>
@@ -19,9 +20,9 @@
 <form id="builder" novalidate>
 <section data-step="0" hidden>
 <div class="eyebrow">Step 1 of 3 · The tricky bit</div><h2 tabindex="-1">What is your child finding difficult?</h2><p class="muted">Your own words are enough. You don’t need to know what the topic is called.</p>
-<label for="age">How old is your child?</label><select id="age" required><option value="">Choose their age</option><option>4–5</option><option>6–7</option><option>8–9</option><option>10–11</option><option>12–13</option><option>14–15</option><option>16–18</option></select>
+<label for="school-year">What school year is your child in?</label><select id="school-year" required><option value="">Choose a school year</option></select><p class="hint">Foundation is also called Prep, Reception or Kindergarten in some schools. Choose “Not sure” if needed.</p><label for="subject">What subject is it?</label><select id="subject"><option>Maths</option><option>English</option><option>Science</option><option>Other</option></select><p class="hint">Curriculum topics are available for Foundation–Year 10 Maths. Other subjects use general suggestions.</p><div id="age-wrap"><label for="age">How old is your child? (optional)</label><select id="age"><option value="">Choose their age</option><option>4–5</option><option>6–7</option><option>8–9</option><option>10–11</option><option>12–13</option><option>14–15</option><option>16–18</option></select></div><div id="math-picker" hidden><h3>Pick a topic</h3><p id="math-year-note" class="hint" aria-live="polite"></p><div id="topic-groups" class="topic-grid" role="group" aria-label="Maths topics"></div><details id="earlier-level"><summary>Try an earlier year or a different level</summary><label for="study-year">Show topics from</label><select id="study-year"></select><p class="hint">This changes the topic level, not the school year.</p></details><div id="skills-panel" hidden><h3 id="skills-heading" tabindex="-1">Which part feels difficult?</h3><div id="math-skills" class="skill-list" role="group" aria-label="Maths skills"></div></div><p id="math-selection" class="hint" role="status"></p></div><div class="examples"><button type="button" id="not-sure">I’m not sure where to start</button><button type="button" id="write-own">Write my own</button></div>
 <label for="difficulty">What are they stuck on?</label><p class="hint" id="difficulty-hint">Describe what happens, or paste a short homework question. Leave out names and personal details.</p><textarea id="difficulty" required maxlength="2000" aria-describedby="difficulty-hint" placeholder="For example: They can do 3 × 4, but get stuck when it’s written as a word problem."></textarea>
-<div class="example-picker"><h3>Need an idea? Pick a starting point.</h3><p class="hint" id="example-hint" aria-live="polite"></p><div id="example-groups"></div><details id="simpler-examples" hidden><summary>Looking for a simpler starting point?</summary><div class="examples" id="basic-examples" role="group" aria-label="Simpler examples"></div></details></div>
+<div class="example-picker" id="legacy-picker"><h3>Need an idea? Pick a starting point.</h3><p class="hint" id="example-hint" aria-live="polite"></p><div id="example-groups"></div><details id="simpler-examples" hidden><summary>Looking for a simpler starting point?</summary><div class="examples" id="basic-examples" role="group" aria-label="Simpler examples"></div></details></div>
 <p class="error" id="error" role="alert" hidden></p><div class="actions"><button type="button" data-back="-1">← Change who it’s for</button><button class="primary" type="submit">Next: make it personal →</button></div>
 </section>
 <section data-step="1" hidden>
@@ -44,8 +45,10 @@
 </section>
 </div>
 <p class="foot">Your answers stay on this page until you copy them into Claude.<br>This builder creates a prompt; Claude creates the activity.</p>
-</main>
+<details class="source-note"><summary>About these curriculum topics</summary><p>Maths topics are parent-friendly adaptations of Australian Curriculum Version 9.0, Foundation–Year 10. They cover the content descriptions, not every teaching example or achievement standard. Schools may teach topics in a different order.</p><p>© Australian Curriculum, Assessment and Reporting Authority (ACARA) 2010 to present, unless otherwise indicated. Downloaded from the <a href="https://www.australiancurriculum.edu.au/downloads">Australian Curriculum website</a> on 9 September 2026 and modified. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. This app is not affiliated with or endorsed by ACARA. Topic wording is simplified; the official description is included in the prompt when a skill is selected. Data is bundled with the app and updated through app releases, not synchronised live. <a href="https://www.australiancurriculum.edu.au/help/f-10-curriculum-overview/version-history">Curriculum version history</a>.</p></details></main>
 <script src="examples.js"></script>
+<script src="curriculum-maths.js"></script>
+<script src="curriculum-picker.js"></script>
 <script>
 const $ = id => document.getElementById(id);
 let step = -1;
@@ -53,7 +56,8 @@ let audience = 'parent';
 const parentCopy = new Map();
 const wording = [
   ['[data-step="0"] h2', 'What are you finding difficult?'],
-  ['label[for="age"]', 'How old are you?'],
+  ['label[for="age"]', 'How old are you? (optional)'],
+  ['label[for="school-year"]', 'What school year are you in?'],
   ['#age option[value=""]', 'Choose your age'],
   ['label[for="difficulty"]', 'What are you stuck on?'],
   ['[data-step="1"] h2', 'Make it feel like your kind of learning.'],
@@ -77,6 +81,7 @@ document.querySelectorAll('[data-audience]').forEach(button => button.addEventLi
   $('difficulty').placeholder = audience === 'student' ? 'For example: I can do 3 × 4, but get stuck when it’s written as a word problem.' : 'For example: They can do 3 × 4, but get stuck when it’s written as a word problem.';
   $('extra').placeholder = audience === 'student' ? 'For example: Keep the reading short. I lose confidence when I get an answer wrong.' : 'For example: Keep the reading short. They lose confidence when they get an answer wrong.';
   syncSelectedExample();
+  syncMathAudience();
   renderExamples();
   showStep(0);
 }));
@@ -103,12 +108,13 @@ My answers are below: use them first and ask only about important details that a
 Create an interactive Claude artifact to help my child understand something they are finding difficult. I am a parent and do not know curriculum terminology.
 
 ABOUT MY CHILD
-Age range: ${$('age').value} years.
+${$('age').value ? 'Age range: ' + $('age').value + ' years.' : ''}
+${curriculumPromptContext()}
 What they are finding difficult (my description or homework example):
 ${$('difficulty').value.trim()}
 ${$('interests').value.trim() ? '\nTheir interests: ' + $('interests').value.trim() + '\n' : ''}${$('extra').value.trim() ? '\nWhat helps them learn: ' + $('extra').value.trim() + '\n' : ''}
 THE ACTIVITY
-- Focus on one manageable concept behind the difficulty. Match the starting level to the described task and use age only as a guide. Start with one short check of what the child understands; revisit easier foundations only if needed or requested. Do not automatically replace an older learner’s task with early-primary content.
+- Focus on one manageable concept behind the difficulty. Match the starting level to the described task and use school year and any supplied age only as guides. Start with one short check of what the child understands; revisit easier foundations only if needed or requested. Do not automatically replace an older learner’s task with early-primary content.
 - If my description is too unclear to choose a concept, ask me one simple clarifying question before building. Do not ask me for curriculum codes or teaching terminology.
 - ${approaches[$('support').value]}
 - Aim for 5–10 minutes. Explain the idea in everyday words, show a worked example, then offer a few short interactive tasks, one at a time.
@@ -116,7 +122,7 @@ THE ACTIVITY
 - Give useful feedback that explains why an answer works. On a mistake, offer a gentle hint and another try; do not simply reveal the answer or mark it wrong.
 - Include an easier option, a small next challenge and a way to restart. Finish with a fresh example to check understanding and a simple question we can discuss together.
 - Use Australian spelling and familiar everyday examples. If I supplied a homework question, teach the method using a similar example before returning to it.
-- Do not invent curriculum references, claim official curriculum alignment or diagnose learning difficulties.
+- Use only the supplied curriculum references. Do not invent references, claim ACARA endorsement or diagnose learning difficulties.
 
 BUILD AND PRESENTATION
 - Build the working interactive web page using Claude's Artifact tool, not only a downloadable HTML file, a code block or a lesson plan.
@@ -136,19 +142,20 @@ BUILD AND PRESENTATION
 $('builder').addEventListener('submit', event => {
   event.preventDefault();
   if (step === 0) {
-    const missing = !$('age').value ? $('age') : !$('difficulty').value.trim() ? $('difficulty') : null;
+    const missing = !$('school-year').value ? $('school-year') : !$('difficulty').value.trim() ? $('difficulty') : null;
     $('error').hidden = !missing;
-    ['age','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid'));
-    if (missing) { $('error').textContent = missing.id === 'age' ? 'Choose an age range so the activity is at a helpful level.' : 'Tell us a little about the tricky bit.'; missing.setAttribute('aria-invalid','true'); missing.focus(); return; }
+    ['school-year','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid'));
+    if (missing) { $('error').textContent = missing.id === 'school-year' ? 'Choose a school year, or select Not sure.' : 'Tell us a little about the tricky bit.'; missing.setAttribute('aria-invalid','true'); missing.focus(); return; }
     showStep(1);
   } else { $('prompt').value = buildPrompt(); $('status').textContent = ''; showStep(2); $('prompt').scrollTop = 0; }
 });
 document.querySelectorAll('[data-back]').forEach(button => button.addEventListener('click', () => showStep(Number(button.dataset.back))));
 $('age').addEventListener('change', () => { syncSelectedExample(); renderExamples(); });
-$('difficulty').addEventListener('input', () => { selectedExample = null; lastExampleText = ''; resizeDifficulty(); });
+$('difficulty').addEventListener('input', () => { selectedExample = null; lastExampleText = ''; clearMathSelection(); renderExamples(); resizeDifficulty(); });
 window.addEventListener('resize', resizeDifficulty);
+initCurriculumPicker();
 renderExamples();
-$('restart').addEventListener('click', () => { if (!confirm('Clear your answers and start a new prompt?')) return; $('builder').reset(); selectedExample = null; lastExampleText = ''; $('simpler-examples').open = false; renderExamples(); $('prompt').value = ''; $('status').textContent = ''; $('error').hidden = true; ['age','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid')); showStep(0); });
+$('restart').addEventListener('click', () => { if (!confirm('Clear your answers and start a new prompt?')) return; $('builder').reset(); resetCurriculum(); selectedExample = null; lastExampleText = ''; $('simpler-examples').open = false; renderExamples(); $('prompt').value = ''; $('status').textContent = ''; $('error').hidden = true; ['school-year','difficulty'].forEach(id => $(id).removeAttribute('aria-invalid')); showStep(0); });
 $('copy').addEventListener('click', async () => {
   try { await navigator.clipboard.writeText($('prompt').value); $('status').textContent = 'Copied. Open Claude and paste your prompt into a new chat.'; }
   catch { $('prompt').focus(); $('prompt').select(); $('status').textContent = 'Your prompt is selected. Use your device’s Copy command, then paste it into Claude.'; }

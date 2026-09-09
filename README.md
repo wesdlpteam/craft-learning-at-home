@@ -15,3 +15,15 @@ Serve `index.html` with any static website host. This repository is separate fro
 ## Verification
 
 See `QA.md` for the browser checks and evidence. Claude artifact generation itself requires using Claude and is not performed by this builder.
+
+## Maths curriculum picker
+
+Parents and students choose a school year, a topic and a plain-language skill. The picker covers 240 ACARA Version 9.0 Mathematics content descriptions for Foundation–Year 10. An optional topic-level selector supports earlier foundations without changing the school year. Other subjects, unknown years and Years 11–12 use general suggestions.
+
+Selected skills add the official description and reference to the generated Claude prompt. Editing that difficulty text removes the reference. No API keys, curriculum network calls or automatic artifact publication are required.
+
+See [curriculum sources and adaptations](CURRICULUM-SOURCES.md). Run structural checks with:
+
+```sh
+node scripts/check-curriculum.cjs
+```

@@ -274,6 +274,10 @@ const basicExamples = [
 ];
 let selectedExample = null;
 let lastExampleText = '';
+function clearGeneralSelection() {
+  if (selectedExample && $('difficulty').value === lastExampleText) $('difficulty').value = '';
+  selectedExample = null; lastExampleText = '';
+}
 function resizeDifficulty() {
   const field = $('difficulty');
   field.style.height = 'auto';
@@ -296,6 +300,7 @@ function addExampleButton(container, item, basic = false) {
   button.type = 'button';
   button.textContent = item[0];
   button.addEventListener('click', () => {
+    clearMathSelection();
     selectedExample = {label: item[0], basic};
     lastExampleText = exampleText(item[1]);
     $('difficulty').value = lastExampleText;
@@ -306,7 +311,7 @@ function addExampleButton(container, item, basic = false) {
   });
   container.appendChild(button);
 }
-function renderExamples() {
+function legacyRenderExamples() {
   const items = exampleSets[$('age').value];
   $('example-groups').replaceChildren();
   $('simpler-examples').hidden = !items;
@@ -316,6 +321,7 @@ function renderExamples() {
   $('difficulty').placeholder = 'Choose an idea below, or describe the tricky bit in your own words.';
   if (!items) return;
   ['Maths', 'Reading & writing', 'Science'].forEach((name, group) => {
+    if ($('subject').value !== 'Other' && $('subject').value !== ['Maths','English','Science'][group]) return;
     const heading = document.createElement('h3');
     heading.textContent = name;
     const buttons = document.createElement('div');
@@ -326,5 +332,6 @@ function renderExamples() {
     $('example-groups').append(heading, buttons);
   });
   $('basic-examples').replaceChildren();
-  basicExamples.forEach(item => addExampleButton($('basic-examples'), item, true));
+  basicExamples.filter((item, i) => $('subject').value === 'Other' || ($('subject').value === 'Maths' && i !== 1) || ($('subject').value === 'English' && i === 1)).forEach(item => addExampleButton($('basic-examples'), item, true));
+  $('simpler-examples').hidden = !$('basic-examples').children.length;
 }
